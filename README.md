@@ -1,5 +1,3 @@
-# Adversarial-attacks-and-defenses-via-image-perturabtions
-
 # Paper List for  Image Perturbations for Model Robustness: Attacks and Defenses# llm-misinformation-survey
 
 <div align=center><img src="./image/logo.png" width="90%"/></div>
