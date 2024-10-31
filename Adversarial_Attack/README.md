@@ -59,3 +59,16 @@ architecture Transferability)
       - [3.9 Poisoning against Vision Transformer](#39-Poisoning against Vision Transformer)
       - [3.10 Efficiency](#310-Efficiency)
   <!-- - [Citation](#citation) -->
+
+## 2. PERTURBATION-BASED ATTACK
+
+### 2.1 Non-adversarial Perturbation-based Evasion Attack
+#### 2.1.1 Current Studies and Underlying Reasons of Vulnerability for CNNs
+#### 2.1.2 Attack against Vision Transformers
+#### 2.1.3 Comparison between CNNs and ViTs
+#### 2.1.4 Effectiveness
+#### 2.1.5 Imperceptibility
+
+
+
+
