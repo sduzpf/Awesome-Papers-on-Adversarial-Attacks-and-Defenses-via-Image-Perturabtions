@@ -98,7 +98,7 @@
 #### 3.3 Black-box Attack
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 3.3.1 Black-box Attack
+##### 3.3.1 Query-box Attack
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
 ##### 3.3.2 Query Efficiency
