@@ -160,7 +160,7 @@ If not explicitly indicated, works are proposed for CNNs. Attacks for other netw
 
 - [2016] [JSMA] **The limitations of deep learning in adversarial settings** [[paper](https://ieeexplore.ieee.org/abstract/document/7467366/)]
   
-##### Generative method
+##### Generative methods
 
 - [2018] [Residual-like networks] **Learning to attack: Adversarial transformation networks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/11672)]
   
@@ -172,23 +172,38 @@ If not explicitly indicated, works are proposed for CNNs. Attacks for other netw
 - [2018] [Encoder-decoder networks] **Learning to attack: Adversarial transformation networks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/11672)]
 
 - [2018] [GANs] **Generating adversarial examples with adversarial networks** [[paper](https://arxiv.org/abs/1801.02610)]
-- 
+
+##### Search-based methods
+
+- [2018] [Random search] **Semantic adversarial examples** [[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/w32/html/Hosseini_Semantic_Adversarial_Examples_CVPR_2018_paper.html)]
+  
+- [2020] [Random search] **Colorfool: Semantic adversarial colorization** [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Shamsabadi_ColorFool_Semantic_Adversarial_Colorization_CVPR_2020_paper.html)]
+
+- [2023] [Exhaustive search] **Alias-free convnets: Fractional shift invariance via polynomial activations** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Michaeli_Alias-Free_Convnets_Fractional_Shift_Invariance_via_Polynomial_Activations_CVPR_2023_paper.html)]
+  
+- [2019] [Exhaustive search] **Exploring the landscape of spatial robustness** [[paper](http://proceedings.mlr.press/v97/engstrom19a.html)]
+
+- [2019] [Exhaustive search] **Exploring the landscape of spatial robustness** [[paper](http://proceedings.mlr.press/v97/engstrom19a.html)]
+
+- [2022] [Exhaustive search] **Natural color fool: Towards boosting black-box unrestricted attacks** [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/31d0d59fe946684bb228e9c8e887e176-Abstract-Conference.html)]
+
+- [2019] [Population-based methods] **One pixel attack for fooling deep neural networks** [[paper](https://ieeexplore.ieee.org/abstract/document/8601309/)]
+- [2020] [Population-based methods] **Adv-watermark: A novel watermark perturbation for adversarial examples** [[paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413976)]
+    
 #### 3.2 Underlying Reasons of Vulnerability
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Batch normalization increases adversarial vulnerability and decreases adversarial transferability: A non-robust feature perspective** [[paper](http://openaccess.thecvf.com/content/ICCV2021/html/Benz_Batch_Normalization_Increases_Adversarial_Vulnerability_and_Decreases_Adversarial_Transferability_A_ICCV_2021_paper.html)]
+- 
+- [2021] **Natural adversarial examples** [[paper](http://openaccess.thecvf.com/content/CVPR2021/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2021_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Adversarial robustness through the lens of causality** [[paper](https://arxiv.org/abs/2106.06196)]
+ 
+- [2020] **A causal view on robustness of neural networks** [[paper](https://proceedings.neurips.cc/paper_files/paper/2020/hash/02ed812220b0705fabb868ddbf17ea20-Abstract.html)]
+   
+- [2019] **Adversarial examples are not bugs, they are features** [[paper](https://proceedings.neurips.cc/paper/2019/hash/e2c420d928d4bf8ce0ff2ec19b371514-Abstract.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2018] **ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness** [[paper](https://arxiv.org/abs/1811.12231)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 #### 3.3 Black-box Attack
 - [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
