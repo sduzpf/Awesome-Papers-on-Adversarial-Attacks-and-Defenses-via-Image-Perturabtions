@@ -15,17 +15,17 @@ If you find our survey or paper list useful, we would greatly appreciate it if y
 }
 ```
 
-## Table of Content (ToC)
+## PAPER LIST
 
 - [Image Perturbations Survey](#image-perturbations-survey)
 - [PERTURBATION-BASED ATTACK](#perturbation-based-attack)
-- [1 Evasion Attack](./Adversarial Attack/README.md)
-- [2 Poisoning Attack](./Poisoning Attack/README.md)
+- [1 Evasion Attack](./Adversarial_Attack/README.md)
+- [2 Poisoning Attack](./Poisoning_Attack/README.md)
 - [PERTURBATION-BASED DEFENSE (ROBUST LEARNING)](#ROBUST_LEARNING)
-  - [1 Perturbation-based Augmentation](./Perturbation-based Augmentation/README.md)
-  - [2 Perturbation-based Input Pre-processing](./Perturbation-based Input Pre-processing/README.md)
-  - [3 Randomized Smoothing for Certified Adversarial Robustness](./Randomized Smoothing/README.md)
-  - [4 Adversarial Training](./Adversarial Training/README.md)
+  - [1 Perturbation-based Augmentation](./Perturbation-based_Augmentation/README.md)
+  - [2 Perturbation-based Input Pre-processing](./Perturbation-based_Input_Pre-processing/README.md)
+  - [3 Randomized Smoothing for Certified Adversarial Robustness](./Randomized_Smoothing/README.md)
+  - [4 Adversarial Training](./Adversarial_Training/README.md)
 - [5. Relation between different attacks]
   - [5.1 Relations between Different Adversarial Robustness to Evasion Attack](#81-Relations between Different Adversarial Robustness to Evasion Attack)
   - [5.2 Relations between Adversarial Robustness to Evasion Attack and Backdoor Attack](#82-Relations between Adversarial Robustness to Evasion Attack and Backdoor Attack)
