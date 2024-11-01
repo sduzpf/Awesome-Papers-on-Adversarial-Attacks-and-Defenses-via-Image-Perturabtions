@@ -38,7 +38,7 @@
   - [4. Adversarial Perturbation-based Poisoning Attack](#4-Adversarial-Perturbation-based-Poisoning-Attack)
     - [4.1 Targeted Poisoning Attack](#41-Targeted-Poisoning-Attack)
     - [4.2 Backdoor (Trojan) Attack](#42-Backdoor-Trojan-Attack)
-    - [4.3 Untargeted (Availability, Delusive, Indiscriminate) Attack](#43-Availability-Untargeted-Attack)
+    - [4.3 Untargeted Attack](#43-Availability-Untargeted-Attack)
     - [4.4 Transferability](#34-Transferability)
       - [4.4.1 Downstream-agnostic Attack](#441-Downstream-agnostic-Attack)
         - [4.4.1.1 Targeted poisoning](#4411-Targeted-poisoning)
@@ -176,7 +176,9 @@
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
 - [2023/09] **A Survey of Hallucination in Large Foundation Models.** *Vipula Rawte et al. arxiv.* [[paper](https://arxiv.org/abs/2309.05922)]
 
-### 4.3 Untargeted (Availability, Delusive, Indiscriminate) Attack
+### 4.3 Untargeted Attack
+- Untargeted (Availability, Delusive, Indiscriminate) Attack
+
 
 ### 4.4 Transferability
 #### 4.4.1 Downstream-agnostic Attack
