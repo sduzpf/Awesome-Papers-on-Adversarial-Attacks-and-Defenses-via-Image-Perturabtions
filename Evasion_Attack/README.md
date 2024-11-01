@@ -41,7 +41,7 @@
     - [4.3 Untargeted (Availability) Attack](#43-Untargeted-Availability-Attack)
     - [4.4 Transferability](#44-Transferability)
       - [4.4.1 Downstream-agnostic Attack](#441-Downstream-agnostic-Attack)
-        - [4.4.1.1 Targeted poisoning](#4411-Targeted-poisoning)
+        - [4.4.1.1 Targeted Poisoning](#4411-Targeted-poisoning)
         - [4.4.1.2 Backdoor attacks](#4412-Backdoor-attacks)
         - [4.4.1.3 Untargeted attacks](#4413-Untargeted-attacks)
       - [4.5 Imperceptibility](#35-Imperceptibility)
@@ -181,15 +181,15 @@
 
 
 ### 4.4 Transferability
-#### 4.4.1 Downstream-agnostic Attack
+#### 4.4.1 Targeted poisoning
 
-##### Targeted poisoning
+##### 4.4.1.1 Targeted poisoning
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
 
-##### Backdoor attacks
+##### 4.4.1.2 Backdoor attacks
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
 
-##### Untargeted attacks
+##### 4.4.1.3 Untargeted attacks
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
 
 ### 4.5 Imperceptibility
