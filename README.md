@@ -1,4 +1,4 @@
-# Paper List for  Image Perturbations for Model Robustness: Attacks and Defenses# llm-misinformation-survey
+# Paper List for A Survey of Image Perturbations for Model Robustness: Attacks and Defenses
 
 <div align=center><img src="./image/logo.png" width="90%"/></div>
 
@@ -18,7 +18,7 @@ If you find our survey or paper list useful, we would greatly appreciate it if y
 ## PAPER LIST of Image Perturbations Survey
 
 ## PERTURBATION-BASED ATTACK
-- [Evasion Attack](./Adversarial_Attack/README.md)
+- [Evasion Attack](./Evasion_Attack/README.md)
 - [Poisoning Attack](./Poisoning_Attack/README.md)
   
 ## PERTURBATION-BASED DEFENSE (ROBUST LEARNING)
