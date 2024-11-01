@@ -22,7 +22,7 @@
         - [3.3.4.5 Finding proper substitute models](#3345-Finding-proper-substitute-models)
         - [3.3.4.6 Distribution-oriented methods](#3346-Distribution-oriented-methods)
         - [3.3.4.7 Other methods](#3347-Other-methods)
-      - [3.3.5 Cross-domain(modality) Transferability](#335-Cross-domain-modality-Transferability)
+      - [3.3.5 Cross-domain and modality Transferability](#335-Cross-domain-and-modality-Transferability)
       - [3.3.6 Cross-task Transferability](#336-Cross-task-Transferability)
     - [3.4 Perturbation against Vision Transformer and Cross-architecture Transferability](#34-Perturbation-against-Vision-Transformer-and-Cross-architecture-Transferability)
       - [3.4.1 Current studies and Underlying Reasons for Vulnerability](#341-Current-studies-and-Underlying-Reasons-for-Vulnerability)
@@ -122,7 +122,7 @@
 ###### 3.3.4.7 Other methods
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 3.3.5 Cross-domain(modality) Transferability
+##### 3.3.5 Cross-domain and modality Transferability
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 - 
 ##### 3.3.6 Cross-task Transferability
