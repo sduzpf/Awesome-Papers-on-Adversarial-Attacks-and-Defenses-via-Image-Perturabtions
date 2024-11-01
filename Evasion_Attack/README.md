@@ -167,7 +167,7 @@
 
 - [2023/11] **Adapting Fake News Detection to the Era of Large Language Models.** *Jinyan Su et al. arXiv.* [[paper](https://arxiv.org/abs/2311.04917)]
 
-### 4.2 Backdoor/Trojan Attack
+### 4.2 Backdoor (Trojan) Attack
 
 #### 4.2.1 Alleviating Hallucination of LLMs
 
