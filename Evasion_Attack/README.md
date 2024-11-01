@@ -39,7 +39,7 @@
     - [4.1 Targeted Poisoning Attack](#41-Targeted-Poisoning-Attack)
     - [4.2 Backdoor (Trojan) Attack](#42-Backdoor-Trojan-Attack)
     - [4.3 Untargeted (Availability) Attack](#43-Untargeted-Availability-Attack)
-    - [4.4 Transferability](#34-Transferability)
+    - [4.4 Transferability](#44-Transferability)
       - [4.4.1 Downstream-agnostic Attack](#441-Downstream-agnostic-Attack)
         - [4.4.1.1 Targeted poisoning](#4411-Targeted-poisoning)
         - [4.4.1.2 Backdoor attacks](#4412-Backdoor-attacks)
