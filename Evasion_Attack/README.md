@@ -176,7 +176,7 @@
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
 - [2023/09] **A Survey of Hallucination in Large Foundation Models.** *Vipula Rawte et al. arxiv.* [[paper](https://arxiv.org/abs/2309.05922)]
 
-### 4.3 Untargeted (a.k.a. Availability, Delusive, Indiscriminate) Attack
+### 4.3 Untargeted (Availability, Delusive, Indiscriminate) Attack
 
 ### 4.4 Transferability
 #### 4.4.1 Downstream-agnostic Attack
