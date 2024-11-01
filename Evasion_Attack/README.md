@@ -145,21 +145,21 @@ If not explicitly indicated, works are proposed for CNNs. Attacks for other netw
 
 #### 3.1 Basic Generation Methods
 - [2013] [L-BFGS] **Intriguing properties of neural networks** [[paper](https://gitea.sharpe6.com/Adog64/Adversarial-Machine-Learning-Clinic/raw/commit/0e94757c07259c82060fd1d4626c5c8d471deb43/references/Intriguing_properties_of_neural_networks.pdf)]
-
-- [2017] [C&W] **Towards evaluating the robustness of neural networks** [[paper](https://ieeexplore.ieee.org/abstract/document/7958570/)]
-
+  
+- [2014] [FGSM] **Adversarial examples in the physical world** [[paper](https://arxiv.org/abs/1412.6572)]
+  
+- [2016] [JSMA] **The limitations of deep learning in adversarial settings** [[paper](https://ieeexplore.ieee.org/abstract/document/7467366/)]
+    
 - [2016] [DeepFool] **Deepfool: A simple and accurate method to fool deep neural networks** [[paper](http://openaccess.thecvf.com/content_cvpr_2016/html/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.html)]
 
-- [2014] [FGSM] **Adversarial examples in the physical world** [[paper](https://arxiv.org/abs/1412.6572)]
-
 - [2016] [I-FGSM] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://www.taylorfrancis.com/chapters/edit/10.1201/9781351251389-8/adversarial-examples-physical-world-alexey-kurakin-ian-goodfellow-samy-bengio)]
-- 
+  
+- [2017] [C&W] **Towards evaluating the robustness of neural networks** [[paper](https://ieeexplore.ieee.org/abstract/document/7958570/)]
+  
+- [2017] [PGD] **Towards deep learning models resistant to adversarial attacks** [[paper](https://www.utdallas.edu/~mxk055100/courses/adv-ml-19f/1706.06083.pdf)]
+  
 - [2018] [MI-FGSM] **Boosting adversarial attacks with momentum** [[paper](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)]
 
-- [2017] [PGD] **Towards deep learning models resistant to adversarial attacks** [[paper](https://www.utdallas.edu/~mxk055100/courses/adv-ml-19f/1706.06083.pdf)]
-
-- [2016] [JSMA] **The limitations of deep learning in adversarial settings** [[paper](https://ieeexplore.ieee.org/abstract/document/7467366/)]
-  
 ##### Generative methods
 
 - [2018] [Residual-like networks] **Learning to attack: Adversarial transformation networks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/11672)]
@@ -167,29 +167,28 @@ If not explicitly indicated, works are proposed for CNNs. Attacks for other netw
 - [2018] [Encoder-decoder networks] **Generative adversarial perturbations** [[paper](http://openaccess.thecvf.com/content_cvpr_2018/html/Poursaeed_Generative_Adversarial_Perturbations_CVPR_2018_paper.html)]
 
 - [2019] [Encoder-decoder networks] **Black-box adversarial attack with transferable model-based embedding** [[paper](https://arxiv.org/abs/1911.07140)]
+  
 - [2019] [Encoder-decoder networks] **Autozoom: Autoencoder-based zeroth order optimization method for attacking black-box neural networks** [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3852)]
-
-- [2018] [Encoder-decoder networks] **Learning to attack: Adversarial transformation networks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/11672)]
 
 - [2018] [GANs] **Generating adversarial examples with adversarial networks** [[paper](https://arxiv.org/abs/1801.02610)]
 
 ##### Search-based methods
-
-- [2018] [Random search] **Semantic adversarial examples** [[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/w32/html/Hosseini_Semantic_Adversarial_Examples_CVPR_2018_paper.html)]
-  
 - [2020] [Random search] **Colorfool: Semantic adversarial colorization** [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Shamsabadi_ColorFool_Semantic_Adversarial_Colorization_CVPR_2020_paper.html)]
+  
+- [2018] [Random search] **Semantic adversarial examples** [[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/w32/html/Hosseini_Semantic_Adversarial_Examples_CVPR_2018_paper.html)]
 
 - [2023] [Exhaustive search] **Alias-free convnets: Fractional shift invariance via polynomial activations** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Michaeli_Alias-Free_Convnets_Fractional_Shift_Invariance_via_Polynomial_Activations_CVPR_2023_paper.html)]
+
+- [2022] [Exhaustive search] **Natural color fool: Towards boosting black-box unrestricted attacks** [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/31d0d59fe946684bb228e9c8e887e176-Abstract-Conference.html)]
   
 - [2019] [Exhaustive search] **Exploring the landscape of spatial robustness** [[paper](http://proceedings.mlr.press/v97/engstrom19a.html)]
 
 - [2019] [Exhaustive search] **Exploring the landscape of spatial robustness** [[paper](http://proceedings.mlr.press/v97/engstrom19a.html)]
 
-- [2022] [Exhaustive search] **Natural color fool: Towards boosting black-box unrestricted attacks** [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/31d0d59fe946684bb228e9c8e887e176-Abstract-Conference.html)]
-
-- [2019] [Population-based methods] **One pixel attack for fooling deep neural networks** [[paper](https://ieeexplore.ieee.org/abstract/document/8601309/)]
 - [2020] [Population-based methods] **Adv-watermark: A novel watermark perturbation for adversarial examples** [[paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413976)]
-    
+  
+- [2019] [Population-based methods] **One pixel attack for fooling deep neural networks** [[paper](https://ieeexplore.ieee.org/abstract/document/8601309/)]
+
 #### 3.2 Underlying Reasons of Vulnerability
 - [2021] **Batch normalization increases adversarial vulnerability and decreases adversarial transferability: A non-robust feature perspective** [[paper](http://openaccess.thecvf.com/content/ICCV2021/html/Benz_Batch_Normalization_Increases_Adversarial_Vulnerability_and_Decreases_Adversarial_Transferability_A_ICCV_2021_paper.html)]
 - 
@@ -253,39 +252,69 @@ If not explicitly indicated, works are proposed for CNNs. Attacks for other netw
 
   
 ##### 3.3.2 Query Efficiency
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Decision-based query efficient adversarial attack via adaptive boundary learning** [[paper](https://ieeexplore.ieee.org/abstract/document/10163476/)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Robustness with query-efficient adversarial attack using reinforcement learning** [[paper](https://openaccess.thecvf.com/content/CVPR2023W/AML/html/Sarkar_Robustness_With_Query-Efficient_Adversarial_Attack_Using_Reinforcement_Learning_CVPRW_2023_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Query-efficient decision-based black-box patch attack** [[paper](https://ieeexplore.ieee.org/abstract/document/10227335/)]
+  
+- [2022] **Triangle attack: A query-efficient decision-based adversarial attack** [[paper](https://link.springer.com/chapter/10.1007/978-3-031-20065-6_10)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2022] **Blackbox attacks via surrogate ensemble search** [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/23b9d4e18b151ba2108fb3f1efaf8de4-Abstract-Conference.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Simulating unknown target models for query-efficient black-box attacks** [[paper](http://openaccess.thecvf.com/content/CVPR2021/html/Ma_Simulating_Unknown_Target_Models_for_Query-Efficient_Black-Box_Attacks_CVPR_2021_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Query-efficient black-box adversarial attacks guided by a transfer-based prior** [[paper](https://ieeexplore.ieee.org/abstract/document/9609659/)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-- 
+- [2020] **Improving query efficiency of black-box adversarial attack** [[paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200911508B/abstract)]
+
+- [2020] **Towards query-efficient black-box adversary with zeroth-order natural gradient descent** [[paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200207891Z/abstract)]
+- [2020] **HopSkipJumpAttack: A query-efficient decision-based attack** [[paper](https://ieeexplore.ieee.org/abstract/document/9152788/)]
+
+- [2020] **Qeba: Query-efficient boundary-based blackbox attack** [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Li_QEBA_Query-Efficient_Boundary-Based_Blackbox_Attack_CVPR_2020_paper.html)]
+  
+- [2020] **Square attack: A query-efficient black-box adversarial attack via random search** [[paper](https://link.springer.com/chapter/10.1007/978-3-030-58592-1_29)]
+
+- [2019] **Guessing smart: Biased sampling for efficient black-box adversarial attacks** [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Brunner_Guessing_Smart_Biased_Sampling_for_Efficient_Black-Box_Adversarial_Attacks_ICCV_2019_paper.html)]
+  
+- [2019] **Improving black-box adversarial attacks with a transfer-based prior** [[paper](https://proceedings.neurips.cc/paper/2019/hash/32508f53f24c46f685870a075eaaa29c-Abstract.html)]
+
+- [2019] **[Prior convictions: Black-box adversarial attacks with bandits and priors]** [[paper](https://arxiv.org/abs/1807.07978)]
+
+- [2019] **Black-box adversarial attack with transferable model-based embedding** [[paper](https://arxiv.org/abs/1911.07140)]
+
+- [2019] **Nattack: Learning the distributions of adversarial examples for an improved black-box attack on deep neural networks** [[paper](http://proceedings.mlr.press/v97/li19g.html?ref=https://githubhelp.com)]
+
+- [2019] **Autozoom: Autoencoder-based zeroth order optimization method for attacking black-box neural networks** [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3852)]
+  
+- [2018] **Black-box adversarial attacks with limited queries and information** [[paper](https://proceedings.mlr.press/v80/ilyas18a.html)]
+  
+- [2018] **Practical black-box attacks on deep neural networks using efficient query mechanisms** [[paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Arjun_Nitin_Bhagoji_Practical_Black-box_Attacks_ECCV_2018_paper.html)]
+  
 ##### 3.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Why does little robustness help? a further step towards understanding adversarial transferability** [[paper](https://ieeexplore.ieee.org/abstract/document/10646840/)]
+- [2022] **Toward understanding and boosting adversarial transferability from a distribution perspective** [[paper](https://ieeexplore.ieee.org/abstract/document/9917370/)]
+  
+- [2021] **Trs: Transferability reduced ensemble via promoting gradient diversity and model smoothness** [[paper](https://proceedings.neurips.cc/paper_files/paper/2021/hash/937936029af671cf479fa893db91cbdd-Abstract.html)]
+  
+- [2020] **Towards understanding and improving the transferability of adversarial examples in deep neural networks** [[paper](https://proceedings.mlr.press/v129/wu20a.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Guessing smart: Biased sampling for efficient black-box adversarial attacks** [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Brunner_Guessing_Smart_Biased_Sampling_for_Efficient_Black-Box_Adversarial_Attacks_ICCV_2019_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Skip connections matter: On the transferability of adversarial examples generated with ResNets** [[paper](https://arxiv.org/abs/2002.05990)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Adversarial examples are not bugs, they are features** [[paper](https://proceedings.neurips.cc/paper/2019/hash/e2c420d928d4bf8ce0ff2ec19b371514-Abstract.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Why do adversarial attacks transfer? explaining transferability of evasion and poisoning attacks** [[paper](https://www.usenix.org/conference/usenixsecurity19/presentation/demontis)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2018] **Is robustness the cost of accuracy?--a comprehensive study on the robustness of 18 deep image classification models** [[paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Dong_Su_Is_Robustness_the_ECCV_2018_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-- 
+- [2017] **The space of transferable adversarial examples** [[paper](https://arxiv.org/abs/1704.03453)]
+
+- [2016] **Delving into transferable adversarial examples and black-box attacks** [[paper](https://arxiv.org/abs/1611.02770)]
+- [2014] **Explaining and harnessing adversarial examples** [[paper](https://arxiv.org/abs/1412.6572)]
 ##### 3.3.4 Adversarial Transferability Enhancement
 ###### 3.3.4.1 Data augmentation
 - [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
