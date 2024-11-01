@@ -1,6 +1,7 @@
 # EVASION ATTACK
 
-If not explicitly indicated, works are proposed for CNNs. Attacks for other networks or models would be explicitly listed.
+It covers Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), Diffusion models, Vision-Language Models (VLMs), and more. The paper list will be continuously updated to keep track of the latest papers.
+
   - [1 Non-adversarial Perturbation-based Evasion Attack](#1-Non-adversarial-Perturbation-based-Evasion-Attack)
     - [1.1 Current Studies and Underlying Reasons of Vulnerability for CNNs](#11-Current-Studies-and-Underlying-Reasons-of-Vulnerability-for-CNNs)
     - [1.2 Attack against Vision Transformers](#12-Attack-against-Vision-Transformers)
