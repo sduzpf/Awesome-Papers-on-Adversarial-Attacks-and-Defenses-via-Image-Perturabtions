@@ -205,39 +205,53 @@ If not explicitly indicated, works are proposed for CNNs. Attacks for other netw
 
 
 #### 3.3 Black-box Attack
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-- 
 ##### 3.3.1 Query-based Attack
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+###### Gradient estimation based attacks
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2020] **Towards query-efficient black-box adversary with zeroth-order natural gradient descent** [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6173)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Autozoom: Autoencoder-based zeroth order optimization method for attacking black-box neural networks** [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/3852)]
+  
+- [2019] **Prior convictions: Black-box adversarial attacks with bandits and priors** [[paper](https://arxiv.org/abs/1807.07978)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Black-box adversarial attack with transferable model-based embedding** [[paper](https://arxiv.org/abs/1911.07140)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Nattack: Learning the distributions of adversarial examples for an improved black-box attack on deep neural networks** [[paper]([https://arxiv.org/abs/1611.05760](http://proceedings.mlr.press/v97/li19g.html?ref=https://githubhelp.com))]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2018] **Black-box adversarial attacks with limited queries and information** [[paper](https://proceedings.mlr.press/v80/ilyas18a.html)]
+  
+- [2018] **Practical black-box attacks on deep neural networks using efficient query mechanisms** [[paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Arjun_Nitin_Bhagoji_Practical_Black-box_Attacks_ECCV_2018_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2017] **Zoo: Zeroth order optimization based black-box attacks to deep neural networks without training substitute models** [[paper](https://dl.acm.org/doi/abs/10.1145/3128572.3140448)]
+  
+###### Gradient estimation based attacks
+  
+- [2020] **HopSkipJumpAttack: A query-efficient decision-based attack** [[paper](https://ieeexplore.ieee.org/abstract/document/9152788/)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-- 
+###### Combination of query-based and transfer-based attacks
+- [2022] **Blackbox attacks via surrogate ensemble search** [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/23b9d4e18b151ba2108fb3f1efaf8de4-Abstract-Conference.html)]
+  
+- [2021] **Query-efficient black-box adversarial attacks guided by a transfer-based prior** [[paper](https://ieeexplore.ieee.org/abstract/document/9609659/)]
+
+- [2021] **Simulating unknown target models for query-efficient black-box attacks** [[paper](http://openaccess.thecvf.com/content/CVPR2021/html/Ma_Simulating_Unknown_Target_Models_for_Query-Efficient_Black-Box_Attacks_CVPR_2021_paper.html)]
+- [2019] **Improving black-box adversarial attacks with a transfer-based prior** [[paper](https://proceedings.neurips.cc/paper/2019/hash/32508f53f24c46f685870a075eaaa29c-Abstract.html)]
+
+###### Search-based attacks 
+- [2023] **Query-efficient decision-based black-box patch attack** [[paper](https://ieeexplore.ieee.org/abstract/document/10227335/)]
+
+- [2022] **Sparse-RS: a versatile framework for query-efficient sparse black-box adversarial attacks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20595)]
+  
+- [2020] **Square attack: A query-efficient black-box adversarial attack via random search** [[paper](https://link.springer.com/chapter/10.1007/978-3-030-58592-1_29)]
+
+###### Sampling-based attacks 
+
+- [2019] **Guessing smart: Biased sampling for efficient black-box adversarial attacks** [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Brunner_Guessing_Smart_Biased_Sampling_for_Efficient_Black-Box_Adversarial_Attacks_ICCV_2019_paper.html)]
+
+###### Geometric-based attacks
+
+- [2022] **Triangle attack: A query-efficient decision-based adversarial attack** [[paper](https://link.springer.com/chapter/10.1007/978-3-031-20065-6_10)]
+
+  
 ##### 3.3.2 Query Efficiency
 - [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
