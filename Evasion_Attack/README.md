@@ -44,7 +44,7 @@
         - [4.4.1.1 Targeted Poisoning](#4411-Targeted-poisoning)
         - [4.4.1.2 Backdoor attacks](#4412-Backdoor-attacks)
         - [4.4.1.3 Untargeted attacks](#4413-Untargeted-attacks)
-      - [4.5 Imperceptibility](#35-Imperceptibility)
+      - [4.5 Imperceptibility](#45-Imperceptibility)
       - [4.6 Label-agnostic Attack](#46-Label-agnostic-Attack)
       - [4.7 Poisoning against Defense](#47-Poisoning-against-Defense)
       - [4.8 Connection between Evasion Attack and Poisoning Attack](#48-Connection-between-Evasion-Attack-and-Poisoning-Attack)
