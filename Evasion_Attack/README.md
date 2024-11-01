@@ -58,7 +58,7 @@
 
 ### 1.1 Current Studies and Underlying Reasons of Vulnerability for CNNs
 
-- [2023/10] **Language Models Hallucinate, but May Excel at Fact Verification** *Jian Guan et al. arXiv.* [[paper](https://arxiv.org/abs/2310.14564)]
+- [2023/10] **A study and comparison of human and deep learning recognition performance under visual distortions** [[paper](https://arxiv.org/abs/1705.02498)]
 
 ### 1.2 Attack against Vision Transformers
 
