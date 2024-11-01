@@ -13,7 +13,7 @@
     - [3.3 Black-box Attack](#33-Black-box-Attack)
       - [3.3.1 Query-based Attack](#331-Query-based-Attack)
       - [3.3.2 Query Efficiency](#332-Query-Efficiency)
-      - [3.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)](#333-transfer-based-attack-and-adversarial-transferability-%28underlying-reasons%29)
+      - [3.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)](#333-transfer-based-attack-and-adversarial-transferability-(-underlying-reasons-))
       - [3.3.4 Adversarial Transferability Enhancement](#334-Adversarial-Transferability-Enhancement)
         - [3.3.4.1 Data augmentation](#3341-Data-augmentation)
         - [3.3.4.2 Ensemble-based techniques](#3342-Ensemble-based-techniques)
