@@ -317,136 +317,114 @@ If not explicitly indicated, works are proposed for CNNs. Attacks for other netw
 - [2014] **Explaining and harnessing adversarial examples** [[paper](https://arxiv.org/abs/1412.6572)]
 ##### 3.3.4 Adversarial Transferability Enhancement
 ###### 3.3.4.1 Data augmentation
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2024] **Foolmix: Strengthen the transferability of adversarial examples by dual-blending and direction update strategy** [[paper](https://ieeexplore.ieee.org/abstract/document/10508615/)]
+- [2024] **Improving adversarial transferability through hybrid augmentation** [[paper](https://www.sciencedirect.com/science/article/pii/S0167404823005849)]
+- [2024] **Enhancing the transferability of adversarial samples with random noise techniques** [[paper](https://www.sciencedirect.com/science/article/pii/S0167404823004510)]
+- [2024] **Boosting adversarial transferability by block shuffle and rotation** [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Boosting_Adversarial_Transferability_by_Block_Shuffle_and_Rotation_CVPR_2024_paper.html)]
+  
+- [2023] **Improving the transferability of adversarial examples with arbitrary style transfer** [[paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612070)]
+- [2023] **Improving the transferability of adversarial samples by path-augmented method** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Improving_the_Transferability_of_Adversarial_Samples_by_Path-Augmented_Method_CVPR_2023_paper.html)]
+- [2023] **Structure invariant transformation for better adversarial transferability** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Wang_Structure_Invariant_Transformation_for_better_Adversarial_Transferability_ICCV_2023_paper.html)]
+- [2023] **Enhancing the self-universality for transferable targeted attacks** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Wei_Enhancing_the_Self-Universality_for_Transferable_Targeted_Attacks_CVPR_2023_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2022] **Learning to learn transferable attack** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/19936)]
+- [2022] **Adaptive image transformations for transfer-based adversarial attack** [[paper](https://link.springer.com/chapter/10.1007/978-3-031-20065-6_1)]
+- [2022] **Frequency domain model augmentation for adversarial attack** [[paper](https://link.springer.com/chapter/10.1007/978-3-031-19772-7_32)]
+  
+- [2021] **Admix: Enhancing the transferability of adversarial attacks** [[paper](http://openaccess.thecvf.com/content/ICCV2021/html/Wang_Admix_Enhancing_the_Transferability_of_Adversarial_Attacks_ICCV_2021_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-- 
+- [2019] **Improving transferability of adversarial examples with input diversity** [[paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Xie_Improving_Transferability_of_Adversarial_Examples_With_Input_Diversity_CVPR_2019_paper.html)]
+- [2019] **Evading defenses to transferable adversarial examples by translation-invariant attacks** [[paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Dong_Evading_Defenses_to_Transferable_Adversarial_Examples_by_Translation-Invariant_Attacks_CVPR_2019_paper.html)]
+- [2019] **Nesterov accelerated gradient and scale invariance for adversarial attacks** [[paper](https://arxiv.org/abs/1908.06281)]
+  
 ###### 3.3.4.2 Ensemble-based techniques
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **An adaptive model ensemble adversarial attack for boosting adversarial transferability** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Chen_An_Adaptive_Model_Ensemble_Adversarial_Attack_for_Boosting_Adversarial_Transferability_ICCV_2023_paper.html)]
+- [2023] **Rethinking model ensemble in transfer-based adversarial attacks** [[paper](https://arxiv.org/abs/2303.09105)]
+- [2023] **Minimizing maximum model discrepancy for transferable black-box targeted attacks** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Minimizing_Maximum_Model_Discrepancy_for_Transferable_Black-Box_Targeted_Attacks_CVPR_2023_paper.html)]
+- [2022] **Learning to learn transferable attack** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/19936)]
+- [2022] **Stochastic variance reduced ensemble adversarial attack for boosting the adversarial transferability** [[paper](http://openaccess.thecvf.com/content/CVPR2022/html/Xiong_Stochastic_Variance_Reduced_Ensemble_Adversarial_Attack_for_Boosting_the_Adversarial_CVPR_2022_paper.html)]
+- [2019] **Evading defenses to transferable adversarial examples by translation-invariant attacks** [[paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Dong_Evading_Defenses_to_Transferable_Adversarial_Examples_by_Translation-Invariant_Attacks_CVPR_2019_paper.html)] 
+- [2018] **Boosting adversarial attacks with momentum** [[paper](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)]
+- [2016] **Delving into transferable adversarial examples and black-box attacks** [[paper](https://arxiv.org/abs/1611.02770)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 ###### 3.3.4.3 Momentum-based methods
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2018] **Boosting adversarial attacks with momentum** [[paper](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Boosting adversarial transferability through enhanced momentum** [[paper](https://arxiv.org/abs/2103.10609)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2024] **Improving adversarial transferability through frequency enhanced momentum** [[paper](https://www.sciencedirect.com/science/article/pii/S0020025524003220)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Enhancing the transferability of adversarial attacks through variance tuning** [[paper](http://openaccess.thecvf.com/content/CVPR2021/html/Wang_Enhancing_the_Transferability_of_Adversarial_Attacks_Through_Variance_Tuning_CVPR_2021_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2024] **Nesterov accelerated gradient and scale invariance for adversarial attacks** [[paper](https://arxiv.org/abs/1908.06281)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Transferable perturbations of deep feature distributions** [[paper](https://arxiv.org/abs/2004.12519)]
+  
 ###### 3.3.4.4 Architecture-oriented methods
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2019] **Skip connections matter: On the transferability of adversarial examples generated with ResNets** [[paper](https://arxiv.org/abs/2002.05990)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2020] **Backpropagating linearly improves transferability of adversarial examples** [[paper](https://proceedings.neurips.cc/paper/2020/hash/00e26af6ac3b1c1c49d7c3d79c60d000-Abstract.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Backpropagating smoothly improves transferability of adversarial examples** [[paper]([https://arxiv.org/abs/1611.05760](https://aisecure-workshop.github.io/amlcvpr2021/cr/31.pdf))]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Backpropagation path search on adversarial transferability** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Xu_Backpropagation_Path_Search_On_Adversarial_Transferability_ICCV_2023_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Batch normalization increases adversarial vulnerability and decreases adversarial transferability: A non-robust feature perspective** [[paper](http://openaccess.thecvf.com/content/ICCV2021/html/Benz_Batch_Normalization_Increases_Adversarial_Vulnerability_and_Decreases_Adversarial_Transferability_A_ICCV_2021_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2020] **Boosting the transferability of adversarial samples via attention** [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Wu_Boosting_the_Transferability_of_Adversarial_Samples_via_Attention_CVPR_2020_paper.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **Feature importance-aware transferable adversarial attacks** [[paper]([https://arxiv.org/abs/1611.05760](http://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html))]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 ###### 3.3.4.5 Finding proper substitute models
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2024] **AGS: Affordable and generalizable substitute training for transferable adversarial attack** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28365)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **StyLess: Boosting the transferability of adversarial examples** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Liang_StyLess_Boosting_the_Transferability_of_Adversarial_Examples_CVPR_2023_paper.html)]
+- [2023] **Diffusion models for imperceptible and transferable adversarial attack** [[paper](https://ieeexplore.ieee.org/abstract/document/10716799/)]
+- [2023] **Why does little robustness help? a further step towards understanding adversarial transferability** [[paper](https://ieeexplore.ieee.org/abstract/document/10646840/)]
+- [2023] **On the role of generalization in transferability of adversarial examples** [[paper](https://proceedings.mlr.press/v216/wang23g.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2021] **A little robustness goes a long way: Leveraging robust features for targeted transfer attacks** [[paper](https://proceedings.neurips.cc/paper/2021/hash/50f3f8c42b998a48057e9d33f4144b8b-Abstract.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2020] **Practical no-box adversarial attacks against dnns** [[paper]([https://arxiv.org/abs/1611.05760](https://proceedings.neurips.cc/paper/2020/hash/96e07156db854ca7b00b5df21716b0c6-Abstract.html))]
+  
 ###### 3.3.4.6 Distribution-oriented methods
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Towards verifying the geometric robustness of large-scale neural networks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26773)]
+  
+- [2022] **Toward understanding and boosting adversarial transferability from a distribution perspective** [[paper](https://ieeexplore.ieee.org/abstract/document/9917370/)]
+  
+- [2021] **On generating transferable targeted perturbations** [[paper](http://openaccess.thecvf.com/content/ICCV2021/html/Naseer_On_Generating_Transferable_Targeted_Perturbations_ICCV_2021_paper.html)]
+  
+- [2020] **Perturbing across the feature hierarchy to improve standard and strict blackbox attack transferability** [[paper](https://proceedings.neurips.cc/paper/2020/hash/eefc7bfe8fd6e2c8c01aa6ca7b1aab1a-Abstract.html)]
+- [2019] **Transferable perturbations of deep feature distributions** [[paper](https://arxiv.org/abs/2004.12519)]
 ###### 3.3.4.7 Other methods
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2024] **Perturbation towards easy samples improves targeted adversarial transferability** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/028fcbcf85435d39a40c4d61b42c99a4-Abstract-Conference.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Boosting adversarial transferability with learnable patch-wise masks** [[paper](https://ieeexplore.ieee.org/abstract/document/10251606/)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Boosting adversarial transferability by achieving flat local maxima** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/de1739eba209c682a90ec3669229ab2d-Abstract-Conference.html)]
+- [2022] **Boosting the transferability of adversarial attacks with reverse adversarial perturbation** [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/c0f9419caa85d7062c7e6d621a335726-Abstract-Conference.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
+- [2020] **A unified approach to interpreting and boosting adversarial transferability** [[paper](https://arxiv.org/abs/2010.04055)]
+- [2019] **Cross-domain transferability of adversarial perturbations** [[paper](https://proceedings.neurips.cc/paper_files/paper/2019/hash/99cd3843754d20ec3c5885d805db8a32-Abstract.html)]
+  
 ##### 3.3.5 Cross-domain and modality Transferability
-- [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2024] **UCG: A universal cross-domain generator for transferable adversarial examples** [[paper](https://ieeexplore.ieee.org/abstract/document/10388391/)]
+- [2024] **FACL-Attack: Frequency-aware contrastive learning for transferable adversarial attacks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28470)]
+- [2024] **AGS: Affordable and generalizable substitute training for transferable adversarial attack** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28365)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
+- [2023] **Adaptive cross-modal transferable adversarial attacks from images to videos** [[paper](https://ieeexplore.ieee.org/abstract/document/10375740/)]
+- [2023] **GCMA: Generative cross-modal transferable adversarial attacks from images to videos** [[paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612110)]
+- [2023] **Breaking temporal consistency: Generating video universal adversarial perturbations using image models** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Kim_Breaking_Temporal_Consistency_Generating_Video_Universal_Adversarial_Perturbations_Using_Image_ICCV_2023_paper.html)]
+- [2023] **Global-local characteristic excited cross-modal attacks from images to videos** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25362)]
+- [2023] **CDTA: A cross-domain transfer-based attack with contrastive learning** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25239)]
+  
+- [2022] **Cross-modal transferable adversarial attacks from images to videos** [[paper](http://openaccess.thecvf.com/content/CVPR2022/html/Wei_Cross-Modal_Transferable_Adversarial_Attacks_From_Images_to_Videos_CVPR_2022_paper.html)]
+- [2021] **Learning transferable adversarial perturbations** [[paper](https://proceedings.neurips.cc/paper/2021/hash/7486cef2522ee03547cfb970a404a874-Abstract.html)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-
-- [2016] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
-- 
 ##### 3.3.6 Cross-task Transferability
 - [2023] **Examining the impact of blur on recognition by convolutional networks** [[paper](https://arxiv.org/abs/1611.05760)]
 
