@@ -84,103 +84,103 @@
 - [2023/04] **Reinforcement Learning-Based Counter-Misinformation Response Generation: A Case Study of COVID-19 Vaccine Misinformation** *Bing He et al. WWW 2023.* [[paper](https://dl.acm.org/doi/10.1145/3543507.3583388)]
 - [2023/04] **Working With AI to Persuade: Examining a Large Lan- guage Model’s Ability to Generate Pro-Vaccination Messages** *Elise Karinshak et al. CSCW 2023.* [[paper](https://dl.acm.org/doi/10.1145/3579592)]
 
-#### 2.2.1 Current Studies and Underlying Reasons of Vulnerability
+#### 2.1 Current Studies and Underlying Reasons of Vulnerability
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-### 2.3 Adversarial Perturbation-based Evasion Attack
+### 3 Adversarial Perturbation-based Evasion Attack
 
-#### 2.3.1 Basic Generation Methods
-- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
-
-#### 2.3.2 Underlying Reasons of Vulnerability
+#### 3.1 Basic Generation Methods
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.3 Black-box Attack
+#### 3.2 Underlying Reasons of Vulnerability
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.3.1 Black-box Attack
+#### 3.3 Black-box Attack
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.3.2 Query Efficiency
+##### 3.3.1 Black-box Attack
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)
+##### 3.3.2 Query Efficiency
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.3.4 Adversarial Transferability Enhancement
-###### 2.3.3.4.1 Data augmentation
-- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
-###### 2.3.3.4.2 Ensemble-based techniques
-- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
-###### 2.3.3.4.3 Momentum-based methods
-- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
-###### 2.3.3.4.4 Architecture-oriented methods
-- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
-###### 2.3.3.4.5 Finding proper substitute models
-- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
-###### 2.3.3.4.6 Distribution-oriented methods
-- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
-###### 2.3.3.4.7 Other methods
+##### 3.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.3.5 Cross-domain/modality Transferability
+##### 3.3.4 Adversarial Transferability Enhancement
+###### 3.3.4.1 Data augmentation
+- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
+###### 3.3.4.2 Ensemble-based techniques
+- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
+###### 3.3.4.3 Momentum-based methods
+- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
+###### 3.3.4.4 Architecture-oriented methods
+- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
+###### 3.3.4.5 Finding proper substitute models
+- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
+###### 3.3.4.6 Distribution-oriented methods
+- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
+###### 3.3.4.7 Other methods
+- [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
+
+##### 3.3.5 Cross-domain/modality Transferability
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 - 
-##### 2.3.3.6 Cross-task Transferability
+##### 3.3.6 Cross-task Transferability
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.4 Perturbation against Vision Transformer and Cross-architecture Transferability
+#### 3.4 Perturbation against Vision Transformer and Cross-architecture Transferability
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.4.1 Current Studies and Underlying Reasons for Vulnerability
+##### 3.4.1 Current Studies and Underlying Reasons for Vulnerability
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.4.2 Comparison and Cross-architecture Transferability between CNNs and ViTs
+##### 3.4.2 Comparison and Cross-architecture Transferability between CNNs and ViTs
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.5 Non-box Attack
+#### 3.5 Non-box Attack
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.6 Attack against Defense
+#### 3.6 Attack against Defense
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.7 Problem of the Cross-entropy Loss
+#### 3.7 Problem of the Cross-entropy Loss
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.8 Imperceptibility
+#### 3.8 Imperceptibility
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.9 Diverse Perturbations
+#### 3.9 Diverse Perturbations
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.9.1 Beyond l_p-norm Perturbations
+##### 3.9.1 Beyond l_p-norm Perturbations
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-##### 2.3.9.2 Beyond Single or Dual-type Perturbations
+##### 3.9.2 Beyond Single or Dual-type Perturbations
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-#### 2.3.10 Unconstrained Perturbations
+#### 3.10 Unconstrained Perturbations
 - [2023/09] **Artificial intelligence is ineffective and potentially harmful for fact checking** *Matthew R. DeVerna et al. arxiv.* [[paper](https://arxiv.org/abs/2308.10800)]
 
-## 3. Adversarial Perturbation-based Poisoning Attack
+## 4. Adversarial Perturbation-based Poisoning Attack
 
-### 3.1 Targeted Poisoning Attack
+### 4.1 Targeted Poisoning Attack
 
 - [2023/11] **Adapting Fake News Detection to the Era of Large Language Models.** *Jinyan Su et al. arXiv.* [[paper](https://arxiv.org/abs/2311.04917)]
 
-### 3.2 Backdoor/Trojan Attack
+### 4.2 Backdoor/Trojan Attack
 
-#### 3.2.1 Alleviating Hallucination of LLMs
+#### 4.2.1 Alleviating Hallucination of LLMs
 
 ##### survey
 
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
 - [2023/09] **A Survey of Hallucination in Large Foundation Models.** *Vipula Rawte et al. arxiv.* [[paper](https://arxiv.org/abs/2309.05922)]
 
-### 3.3 Untargeted (a.k.a. Availability, Delusive, Indiscriminate) Attack
+### 4.3 Untargeted (a.k.a. Availability, Delusive, Indiscriminate) Attack
 
-### 3.4 Transferability
-#### 3.4.1 Downstream-agnostic Attack
+### 4.4 Transferability
+#### 4.4.1 Downstream-agnostic Attack
 
 ##### Targeted poisoning
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
@@ -191,17 +191,17 @@
 ##### Untargeted attacks
 - [2023/09] **Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.** *Yue Zhang et al. arxiv.* [[paper](https://arxiv.org/abs/2309.01219)]
 
-### 3.5 Imperceptibility
+### 4.5 Imperceptibility
 
-### 3.6 Label-agnostic Attack
+### 4.6 Label-agnostic Attack
 
-### 3.7 Poisoning against Defense
+### 4.7 Poisoning against Defense
 
-### 3.8 Connection between Evasion Attack and Poisoning Attack
+### 4.8 Connection between Evasion Attack and Poisoning Attack
 
-### 3.9 Poisoning against Vision Transformer
+### 4.9 Poisoning against Vision Transformer
 
-### 3.10 Efficiency
+### 4.10 Efficiency
 
 
   
