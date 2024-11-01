@@ -2,7 +2,9 @@
 
 <div align=center><img src="./image/logo.png" width="90%"/></div>
 
->The repository for the survey **[A Survey on Image Perturbations for Model Robustness: Attacks and Defenses](https://www.researchgate.net/profile/Pengfei-Zhang-74/publication/385213781_A_Survey_on_Image_Perturbations_for_Model_Robustness_Attacks_and_Defenses/links/671af1e4393e8533f715a9f2/A-Survey-on-Image-Perturbations-for-Model-Robustness-Attacks-and-Defenses.pdf)**  <br> **TLDR** : A survey of image perturbations and their influence on model robustness via adversarial attacks and defenses.  <br>
+>The repository for the survey **[A Survey on Image Perturbations for Model Robustness: Attacks and Defenses](https://www.researchgate.net/profile/Pengfei-Zhang-74/publication/385213781_A_Survey_on_Image_Perturbations_for_Model_Robustness_Attacks_and_Defenses/links/671af1e4393e8533f715a9f2/A-Survey-on-Image-Perturbations-for-Model-Robustness-Attacks-and-Defenses.pdf)**  <br> **TLDR** : A survey of image perturbations and their influence on model robustness via adversarial attacks and defenses.  <be>
+
+>It covers Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), Diffusion models, Vision-Language Models (VLMs), and more. The paper list will be continuously updated to keep track of the latest papers.
 
 >Any suggestion, comment or related discussion is welcome. 
 
