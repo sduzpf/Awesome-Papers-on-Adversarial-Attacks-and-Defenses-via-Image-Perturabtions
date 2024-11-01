@@ -25,8 +25,7 @@
         - [3.3.4.7 Other methods](#3347-Other-methods)
         - [3.3.5 Cross-domain/modality Transferability](#335-Cross-domain/modality-Transferability)
         - [3.3.6 Cross-task Transferability](#336-Cross-task-Transferability)
-    - [3.4 Perturbation against Vision Transformer and Cross-architecture Transferability](#34-Perturbation-against-Vision-Transformer-and-Cross-
-architecture-Transferability)
+    - [3.4 Perturbation against Vision Transformer and Cross-architecture Transferability](#34-Perturbation-against-Vision-Transformer-and-Cross-architecture-Transferability)
       - [3.4.1 Current studies and Underlying Reasons for Vulnerability](#341-Current-studies-and-Underlying-Reasons-for-Vulnerability)
       - [3.4.2 Comparison and Cross-architecture Transferability between CNNs and ViTs](#342-Comparison-and-Cross-architecture-Transferability-between-CNNs-and-ViTs)
     - [3.5 Non-box Attack](#35-Non-box-Attack)
