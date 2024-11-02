@@ -15,8 +15,6 @@
 
    <!-- - [Citation](#citation) -->
 
-- [2. Non-adversarial Perturbation-based Poisoning Attack](#1-Non-Adversarial-Perturbation-based-Poisoning-Attack)
-
 # 1. Adversarial Perturbation-based Poisoning Attack
 
 ## 1.1 Targeted Poisoning Attack
