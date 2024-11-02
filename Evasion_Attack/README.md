@@ -1,6 +1,7 @@
 # EVASION ATTACK
+>Evasion attacks apply perturbations to input data during the testing or deployment phase to mislead predictions of models.
 
-It covers Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), Diffusion models, Vision-Language Models (VLMs), and more. The paper list will be continuously updated to keep track of the latest papers.
+>It covers Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), Diffusion models, Vision-Language Models (VLMs), and more. The paper list will be continuously updated to keep track of the latest papers.
 
   - [1 Non-adversarial Perturbation-based Evasion Attack](#1-Non-adversarial-Perturbation-based-Evasion-Attack)
     - [1.1 Current Studies and Underlying Reasons of Vulnerability for CNNs](#11-Current-Studies-and-Underlying-Reasons-of-Vulnerability-for-CNNs)
