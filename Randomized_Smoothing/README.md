@@ -2,7 +2,7 @@
 ## Randomized Smoothing
 
 >Randomized smoothing (RS) aims to ensure certified adversarial robustness against evasion attacks (in most cases), which means that no future adversary (under a certain threat model) will break the defense.
->
+
 >The paper list will be continuously updated to keep track of the latest papers.
 
   - [1 Basic Learning Methods](#1-Basic-Learning-Methods)
