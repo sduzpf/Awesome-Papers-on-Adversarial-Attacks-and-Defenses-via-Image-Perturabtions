@@ -1,4 +1,6 @@
 # Poisoning Attack
+>Poisoning attacks are a type of adversarial attack designed to corrupt the training process of models.
+
 - [1. Adversarial Perturbation-based Poisoning Attack](#1-Adversarial-Perturbation-based-Poisoning-Attack)
     - [1.1 Targeted Poisoning Attack](#11-Targeted-Poisoning-Attack)
     - [1.2 Backdoor (Trojan) Attack](#12-Backdoor-Trojan-Attack)
