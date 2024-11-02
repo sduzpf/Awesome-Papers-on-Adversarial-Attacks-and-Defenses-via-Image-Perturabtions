@@ -2,7 +2,7 @@
 - [1. Adversarial Perturbation-based Poisoning Attack](#1-Adversarial-Perturbation-based-Poisoning-Attack)
     - [1.1 Targeted Poisoning Attack](#11-Targeted-Poisoning-Attack)
     - [1.2 Backdoor (Trojan) Attack](#12-Backdoor-Trojan-Attack)
-    - [1.3 Untargeted Attack](#13-Untargeted-Availability-Attack)
+    - [1.3 Untargeted Availability Attack](#13-untargeted-availability-attack)
     - [1.4 Transferability](#14-Transferability)
       - [1.4.1 General Scenarios](#141-General-Scenarios)
       - [1.4.2 Downstream-agnostic Attack](#142-Downstream-agnostic-Attack)
@@ -48,14 +48,13 @@
 - [2017] **Targeted backdoor attacks on deep learning systems using data poisoning.** [[paper](https://arxiv.org/abs/1712.05526)]
 - [2017] **Badnets: Identifying vulnerabilities in the machine learning model supply chain.** [[paper](https://arxiv.org/abs/1708.06733)]
 
-### 1.3 Untargeted Attack 
+### 1.3 Untargeted Availability Attack
 - [2024] **Stable unlearnable example: Enhancing the robustness of unlearnable examples via stable error-minimizing noise.** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28169)]
 - [2023] **Transferable unlearnable examples.** [[paper](https://arxiv.org/abs/2210.10114)]
 - [2023] **Unlearnable clusters: Towards label-agnostic unlearnable examples.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Unlearnable_Clusters_Towards_Label-Agnostic_Unlearnable_Examples_CVPR_2023_paper.html)]
 - [2023] **Cuda: Convolution-based unlearnable datasets.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Sadasivan_CUDA_Convolution-Based_Unlearnable_Datasets_CVPR_2023_paper.html)]
 - [2022] **Availability attacks create shortcuts.** [[paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539241)]
 - [2022] **Indiscriminate poisoning attacks on unsupervised contrastive learning.** [[paper](https://arxiv.org/abs/2202.11202)]
-  
 - [2021] **Neural tangent generalization attacks.** [[paper](https://proceedings.mlr.press/v139/yuan21b)]
 - [2021] **Adversarial examples make strong poisons.** [[paper](https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html)]
 - [2021] **Robust unlearnable examples: Protecting data privacy against adversarial learning.** [[paper](https://arxiv.org/abs/2203.14533)]
