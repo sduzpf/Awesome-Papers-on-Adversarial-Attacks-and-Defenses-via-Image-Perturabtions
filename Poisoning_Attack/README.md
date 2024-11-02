@@ -2,10 +2,10 @@
 - [1. Adversarial Perturbation-based Poisoning Attack](#1-Adversarial-Perturbation-based-Poisoning-Attack)
     - [1.1 Targeted Poisoning Attack](#11-Targeted-Poisoning-Attack)
     - [1.2 Backdoor (Trojan) Attack](#12-Backdoor-Trojan-Attack)
-    - [1.3 Untargeted (Availability or Delusive or Indiscriminate) Attack](#13-Untargeted-Attack)
-    - [1.4 Transferability](#34-Transferability)
+    - [1.3 Untargeted (Availability-Delusive-Indiscriminate) Attack](#13-Untargeted-Attack)
+    - [1.4 Transferability](#14-Transferability)
       - [1.4.1 General Scenarios](#141-General-Scenarios)
-      - [1.4.2 Downstream-agnostic Attack](#141-Downstream-agnostic-Attack)
+      - [1.4.2 Downstream-agnostic Attack](#142-Downstream-agnostic-Attack)
     - [1.5 Imperceptibility](#15-Imperceptibility)
     - [1.6 Label-agnostic Attack](#16-Label-agnostic-Attack)
     - [1.7 Poisoning against Defense](#17-Poisoning-against-Defense)
@@ -49,7 +49,7 @@
 - [2017] **Targeted backdoor attacks on deep learning systems using data poisoning.** [[paper](https://arxiv.org/abs/1712.05526)]
 - [2017] **Badnets: Identifying vulnerabilities in the machine learning model supply chain.** [[paper](https://arxiv.org/abs/1708.06733)]
 
-### 1.3 Untargeted (Availability or Delusive or Indiscriminate) Attack
+### 1.3 Untargeted (Availability-Delusive-Indiscriminate) Attack
 - [2024] **Stable unlearnable example: Enhancing the robustness of unlearnable examples via stable error-minimizing noise.** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28169)]
 - [2023] **Transferable unlearnable examples.** [[paper](https://arxiv.org/abs/2210.10114)]
 - [2023] **Unlearnable clusters: Towards label-agnostic unlearnable examples.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Unlearnable_Clusters_Towards_Label-Agnostic_Unlearnable_Examples_CVPR_2023_paper.html)]
