@@ -1,5 +1,7 @@
 
 ## Perturbation-based Input Pre-processing
+>This approach employs specific perturbation operations as a preprocessing step to disrupt the patterns of attack perturbations. 
+
   - [1 Defense against Adversarial Perturbation-based Evasion Attack](#1-Defense-against-Adversarial-Perturbation-based-Evasion-Attack)
   - [2 Defense against Adversarial Perturbation-based Poisoning Attack](#2-Defense-against-Adversarial-Perturbation-based-Poisoning-Attack)
   <!-- - [Citation](#citation) -->
