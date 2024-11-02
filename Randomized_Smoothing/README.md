@@ -19,8 +19,8 @@
 #  PAPER LIST
 
 ## 1 Basic Learning Methods
-- [2019] **Certified robustness to adversarial examples with differential privacy.** [[paper]([https://ieeexplore.ieee.org/abstract/document/8835364/)]
-- [2019] **Certified adversarial robustness via randomized smoothing.** [[paper]([https://proceedings.mlr.press/v97/cohen19c.html)]
+- [2019] **Certified robustness to adversarial examples with differential privacy.** [[paper](https://ieeexplore.ieee.org/abstract/document/8835364/)]
+- [2019] **Certified adversarial robustness via randomized smoothing.** [[paper](https://proceedings.mlr.press/v97/cohen19c.html)]
 ## 2 Diverse Perturbations
 - [2023] **Artificial.** [[paper](https)]
 ### 2.1 Beyond l_2-norm Robustness Certification
