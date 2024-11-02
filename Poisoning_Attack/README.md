@@ -25,7 +25,7 @@
 - [2019] **Transferable clean-label poisoning attacks on deep neural nets.** [[paper](http://proceedings.mlr.press/v97/zhu19a.html)]
 - [2018] **Poison frogs! targeted clean-label poisoning attacks on neural networks.** [[paper](https://proceedings.neurips.cc/paper_files/paper/2018/hash/22722a343513ed45f14905eb07621686-Abstract.html)]
 - [2017] **Towards poisoning of deep learning algorithms with back-gradient optimization.** [[paper](https://dl.acm.org/doi/abs/10.1145/3128572.3140451)]
-## 1.2 Backdoor (Trojan) Attack
+### 1.2 Backdoor (Trojan) Attack
 - [2023] **Not all samples are born equal: Towards effective clean-label backdoor attacks.** [[paper](https://www.sciencedirect.com/science/article/pii/S0031320323002121)]
 - [2023] **Narcissus: A practical clean-label backdoor attack with limited information.** [[paper](https://dl.acm.org/doi/abs/10.1145/3576915.3616617)]
 - [2023] **An imperceptible data augmentation based blackbox clean-label backdoor attack on deep neural networks.** [[paper](https://ieeexplore.ieee.org/abstract/document/10208211/)]
@@ -47,7 +47,7 @@
 - [2017] **Targeted backdoor attacks on deep learning systems using data poisoning.** [[paper](https://arxiv.org/abs/1712.05526)]
 - [2017] **Badnets: Identifying vulnerabilities in the machine learning model supply chain.** [[paper](https://arxiv.org/abs/1708.06733)]
 
-## 1.3 Untargeted (Availability-Delusive-Indiscriminate) Attack
+### 1.3 Untargeted (Availability-Delusive-Indiscriminate) Attack
 - [2024] **Stable unlearnable example: Enhancing the robustness of unlearnable examples via stable error-minimizing noise.** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28169)]
 - [2023] **Transferable unlearnable examples.** [[paper](https://arxiv.org/abs/2210.10114)]
 - [2023] **Unlearnable clusters: Towards label-agnostic unlearnable examples.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Unlearnable_Clusters_Towards_Label-Agnostic_Unlearnable_Examples_CVPR_2023_paper.html)]
@@ -63,7 +63,7 @@
 - [2018] **Neural tangent kernel: Convergence and generalization in neural networks.** [[paper](https://proceedings.neurips.cc/paper/2018/hash/5a4be1fa34e62bb8a6ec6b91d2462f5a-Abstract.html)]
 - [2017] **Towards poisoning of deep learning algorithms with back-gradient optimization.** [[paper](https://dl.acm.org/doi/abs/10.1145/3128572.3140451)]
 ### 1.4 Transferability
-#### 1.4.1 General Scenarios
+##### 1.4.1 General Scenarios
 - [2024] **Sharpness-aware data poisoning attack.** [[paper](https://arxiv.org/abs/2305.14851)]
 - [2023] **Unlearnable clusters: Towards label-agnostic unlearnable examples.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Unlearnable_Clusters_Towards_Label-Agnostic_Unlearnable_Examples_CVPR_2023_paper.html)]
 - [2023] **Transferable unlearnable examples.** [[paper](https://arxiv.org/abs/2210.10114)]  
@@ -74,13 +74,13 @@
 - [2019] **Transferable clean-label poisoning attacks on deep neural nets.** [[paper](http://proceedings.mlr.press/v97/zhu19a.html)]
 - [2019] **Why do adversarial attacks transfer? explaining transferability of evasion and poisoning attacks.** [[paper](https://www.usenix.org/conference/usenixsecurity19/presentation/demontis)]
   
-#### 1.4.2 Downstream-agnostic Attack
+##### 1.4.2 Downstream-agnostic Attack
 
-##### Targeted poisoning
+###### Targeted poisoning
 (https://arxiv.org/abs/1708.06733)]
 - [2022] **PoisonedEncoder: Poisoning the Unlabeled Pre-training Data in Contrastive Learning.** [[paper](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-hongbin)]
 
-##### Backdoor attacks
+###### Backdoor attacks
 - [2024] **Data poisoning based backdoor attacks to contrastive learning.** [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Data_Poisoning_based_Backdoor_Attacks_to_Contrastive_Learning_CVPR_2024_paper.html)]
 
 - [2023] **An embarrassingly simple backdoor attack on self-supervised learning.** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Li_An_Embarrassingly_Simple_Backdoor_Attack_on_Self-supervised_Learning_ICCV_2023_paper.html)]
@@ -89,7 +89,7 @@
 - [2022] **Badencoder: Backdoor attacks to pre-trained encoders in self-supervised learning.** [[paper](https://ieeexplore.ieee.org/abstract/document/9833644/)]
 - [2022] **Backdoor attacks on self-supervised learning.** [[paper](http://openaccess.thecvf.com/content/CVPR2022/html/Saha_Backdoor_Attacks_on_Self-Supervised_Learning_CVPR_2022_paper.html)]
 
-##### Untargeted attacks
+###### Untargeted attacks
 (https://arxiv.org/abs/1708.06733)]
 - [2022] **Indiscriminate poisoning attacks on unsupervised contrastive learning.** [[paper](https://arxiv.org/abs/2202.11202)]
   
@@ -136,6 +136,6 @@
 - [2023] **Defending backdoor attacks on vision transformer via patch processing.** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25125)]
 - [2023] **Trojvit: Trojan insertion in vision transformers.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zheng_TrojViT_Trojan_Insertion_in_Vision_Transformers_CVPR_2023_paper.html)]
 
-# 2. Adversarial Perturbation-based Poisoning Attack
+## 2. Adversarial Perturbation-based Poisoning Attack
 - [2021] **Adversarial examples make strong poisons.** [[paper](https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html)]
 - [2023] **Batt: Backdoor attack with transformation-based triggers.** [[paper](https://ieeexplore.ieee.org/abstract/document/10096034/)]
