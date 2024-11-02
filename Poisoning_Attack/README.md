@@ -15,9 +15,9 @@
 
    <!-- - [Citation](#citation) -->
 
-# 1. Adversarial Perturbation-based Poisoning Attack
+##  1. Adversarial Perturbation-based Poisoning Attack
 
-## 1.1 Targeted Poisoning Attack
+###  1.1 Targeted Poisoning Attack
 
 - [2021] **Bullseye polytope: A scalable clean-label poisoning attack with improved transferability.** [[paper](https://ieeexplore.ieee.org/abstract/document/9581207/)]
 - [2020] **Metapoison: Practical general-purpose clean-label data poisoning.** [[paper](https://proceedings.neurips.cc/paper/2020/hash/8ce6fc704072e351679ac97d4a985574-Abstract.html)]
