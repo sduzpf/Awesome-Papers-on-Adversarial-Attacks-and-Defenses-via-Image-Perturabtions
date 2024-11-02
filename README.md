@@ -26,7 +26,7 @@ If you find our survey or paper list useful, we would greatly appreciate it if y
 ## PERTURBATION-BASED DEFENSE (ROBUST LEARNING)
   - [Perturbation-based Augmentation](./Perturbation-based_Augmentation/README.md)
   - [Perturbation-based Input Pre-processing](./Perturbation-based_Input_Pre-processing/README.md)
-  - [Randomized Smoothing for Certified Adversarial Robustness](./Randomized_Smoothing/README.md)
+  - [Randomized Smoothing](./Randomized_Smoothing/README.md)
   - [Adversarial Training](./Adversarial_Training/README.md)
     
 ##  Relation between different attacks
