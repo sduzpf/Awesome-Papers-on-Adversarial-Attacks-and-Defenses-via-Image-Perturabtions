@@ -2,7 +2,7 @@
 - [1. Adversarial Perturbation-based Poisoning Attack](#1-Adversarial-Perturbation-based-Poisoning-Attack)
     - [1.1 Targeted Poisoning Attack](#11-Targeted-Poisoning-Attack)
     - [1.2 Backdoor (Trojan) Attack](#12-Backdoor-Trojan-Attack)
-    - [1.3 Untargeted Attack (Availability-Delusive-Indiscriminate)](#13-Untargeted-Attack)
+    - [1.3 Untargeted (Availability Delusive Indiscriminate) Attack ](#13-Untargeted-Attack)
     - [1.4 Transferability](#14-Transferability)
       - [1.4.1 General Scenarios](#141-General-Scenarios)
       - [1.4.2 Downstream-agnostic Attack](#142-Downstream-agnostic-Attack)
@@ -49,7 +49,7 @@
 - [2017] **Targeted backdoor attacks on deep learning systems using data poisoning.** [[paper](https://arxiv.org/abs/1712.05526)]
 - [2017] **Badnets: Identifying vulnerabilities in the machine learning model supply chain.** [[paper](https://arxiv.org/abs/1708.06733)]
 
-### 1.3 Untargeted Attack (Availability-Delusive-Indiscriminate)
+### 1.3 Untargeted (Availability Delusive Indiscriminate) Attack 
 - [2024] **Stable unlearnable example: Enhancing the robustness of unlearnable examples via stable error-minimizing noise.** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28169)]
 - [2023] **Transferable unlearnable examples.** [[paper](https://arxiv.org/abs/2210.10114)]
 - [2023] **Unlearnable clusters: Towards label-agnostic unlearnable examples.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Unlearnable_Clusters_Towards_Label-Agnostic_Unlearnable_Examples_CVPR_2023_paper.html)]
@@ -78,11 +78,11 @@
   
 ##### 1.4.2 Downstream-agnostic Attack
 
-###### Targeted poisoning
+###### Targeted Poisoning
 (https://arxiv.org/abs/1708.06733)]
 - [2022] **PoisonedEncoder: Poisoning the Unlabeled Pre-training Data in Contrastive Learning.** [[paper](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-hongbin)]
 
-###### Backdoor attacks
+###### Backdoor Attack
 - [2024] **Data poisoning based backdoor attacks to contrastive learning.** [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Data_Poisoning_based_Backdoor_Attacks_to_Contrastive_Learning_CVPR_2024_paper.html)]
 
 - [2023] **An embarrassingly simple backdoor attack on self-supervised learning.** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Li_An_Embarrassingly_Simple_Backdoor_Attack_on_Self-supervised_Learning_ICCV_2023_paper.html)]
@@ -91,7 +91,7 @@
 - [2022] **Badencoder: Backdoor attacks to pre-trained encoders in self-supervised learning.** [[paper](https://ieeexplore.ieee.org/abstract/document/9833644/)]
 - [2022] **Backdoor attacks on self-supervised learning.** [[paper](http://openaccess.thecvf.com/content/CVPR2022/html/Saha_Backdoor_Attacks_on_Self-Supervised_Learning_CVPR_2022_paper.html)]
 
-###### Untargeted attacks
+###### Untargeted Attack
 (https://arxiv.org/abs/1708.06733)]
 - [2022] **Indiscriminate poisoning attacks on unsupervised contrastive learning.** [[paper](https://arxiv.org/abs/2202.11202)]
   
