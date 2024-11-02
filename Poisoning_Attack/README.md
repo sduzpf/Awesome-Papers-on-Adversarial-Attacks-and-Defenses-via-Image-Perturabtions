@@ -138,6 +138,6 @@
 - [2023] **Defending backdoor attacks on vision transformer via patch processing.** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25125)]
 - [2023] **Trojvit: Trojan insertion in vision transformers.** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zheng_TrojViT_Trojan_Insertion_in_Vision_Transformers_CVPR_2023_paper.html)]
 
-## 2. Adversarial Perturbation-based Poisoning Attack
+## 2. Non-adversarial Perturbation-based Poisoning Attack
 - [2021] **Adversarial examples make strong poisons.** [[paper](https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html)]
 - [2023] **Batt: Backdoor attack with transformation-based triggers.** [[paper](https://ieeexplore.ieee.org/abstract/document/10096034/)]
