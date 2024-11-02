@@ -2,7 +2,7 @@
 - [1. Adversarial Perturbation-based Poisoning Attack](#1-Adversarial-Perturbation-based-Poisoning-Attack)
     - [1.1 Targeted Poisoning Attack](#11-Targeted-Poisoning-Attack)
     - [1.2 Backdoor (Trojan) Attack](#12-Backdoor-Trojan-Attack)
-    - [1.3 Untargeted (Availability-Delusive-Indiscriminate) Attack](#13-untargeted-availability-attack)
+    - [1.3 Untargeted (Availability-Delusive-Indiscriminate) Attack](#13-untargeted-Availability-Delusive-Indiscriminate-attack)
     - [1.4 Transferability](#14-Transferability)
       - [1.4.1 General Scenarios](#141-General-Scenarios)
       - [1.4.2 Downstream-agnostic Attack](#142-Downstream-agnostic-Attack)
