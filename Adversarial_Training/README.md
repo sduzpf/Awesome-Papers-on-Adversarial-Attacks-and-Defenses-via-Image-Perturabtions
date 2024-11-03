@@ -210,7 +210,7 @@ http://openaccess.thecvf.com/content/CVPR2023/html/Kim_Feature_Separation_and_Re
 - [2019] **Intriguing properties of adversarial training at scale.** [[paper](https://arxiv.org/abs/1906.03787)]
 
 ## 6 Comparison and Connection between Adversarial Training and Randomized Smoothing
-Have been listed in  [Randomized Smoothing](./Randomized_Smoothing/README.md)
+Have been listed in  [Randomized Smoothing](Awesome-Papers-on-Adversarial-Attacks-and-Defenses-via-Image-Perturabtions/Randomized_Smoothing/README.md)
 
 ## 7 Defense against Patch Attack
 
