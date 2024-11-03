@@ -5,15 +5,15 @@
 
 >The paper list will be continuously updated to keep track of the latest papers.
 
-  - [1 Basic Learning Methods](#1-Basic-Learning-Methods)
-  - [2 Diverse Perturbations](#2-Diverse-Perturbations)
-    - [2.1 Beyond l_2-norm Robustness Certification](#21-Beyond-l_2-norm-Robustness-Certification)
-    - [2.2 Beyond Gaussian Noise](#22-Beyond-Gaussian-Noise)
+- [1 Basic Learning Methods](#1-Basic-Learning-Methods)
+- [2 Diverse Perturbations](#2-Diverse-Perturbations)
+  - [2.1 Beyond l_2-norm Robustness Certification](#21-Beyond-l_2-norm-Robustness-Certification)
+  - [2.2 Beyond Gaussian Noise](#22-Beyond-Gaussian-Noise)
 - [3 Certified Robustness and its Trade-off with Standard Accuracy](#3-Certified-Robustness-and-its-Trade-off-with-Standard-Accuracy)
-  - [4 Efficiency](#4-Efficiency)
-  - [5 Curse of Dimensionality](#5-Curse-of-Dimensionality)
-  - [6 Comparison and Connection between Adversarial Training and Randomized Smoothing](#6-Comparison-and-Connection-between-Adversarial-Training-and-Randomized-Smoothing)
-  - [7 Defend against Non-adversarial Perturbation-based Evasion Attack](#7-Defend-against-Non-adversarial-Perturbation-based-Evasion-Attack)
+- [4 Efficiency](#4-Efficiency)
+- [5 Curse of Dimensionality](#5-Curse-of-Dimensionality)
+- [6 Comparison and Connection between Adversarial Training and Randomized Smoothing](#6-Comparison-and-Connection-between-Adversarial-Training-and-Randomized-Smoothing)
+- [7 Defend against Non-adversarial Perturbation-based Evasion Attack](#7-Defend-against-Non-adversarial-Perturbation-based-Evasion-Attack)
   <!-- - [Citation](#citation) -->
   
 #  PAPER LIST
