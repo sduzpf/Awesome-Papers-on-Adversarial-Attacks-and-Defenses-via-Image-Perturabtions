@@ -18,7 +18,7 @@ If you find our survey or paper list useful, we would greatly appreciate it if y
 }
 ```
 
-## PAPER LIST of Image Perturbations Survey
+## PAPER LIST
 
 ## PERTURBATION-BASED ATTACK
 - [Evasion Attack](./Evasion_Attack/README.md)
