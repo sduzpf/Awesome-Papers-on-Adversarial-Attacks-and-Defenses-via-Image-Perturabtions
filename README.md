@@ -20,11 +20,11 @@ If you find our survey or paper list useful, we would greatly appreciate it if y
 
 ## PAPER LIST
 
-## PERTURBATION-BASED ATTACK
+## Perturbation-based Attacks
 - [Evasion Attack](./Evasion_Attack/README.md)
 - [Poisoning Attack](./Poisoning_Attack/README.md)
   
-## PERTURBATION-BASED DEFENSE
+## Perturbation-based Defenses
   - [Perturbation-based Augmentation](./Perturbation-based_Augmentation/README.md)
   - [Perturbation-based Input Pre-processing](./Perturbation-based_Input_Pre-processing/README.md)
   - [Randomized Smoothing](./Randomized_Smoothing/README.md)
