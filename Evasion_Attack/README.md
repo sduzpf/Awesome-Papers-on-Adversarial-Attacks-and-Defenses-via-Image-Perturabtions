@@ -7,40 +7,35 @@
     - [1.1 Current Studies and Underlying Reasons of Vulnerability for CNNs](#11-Current-Studies-and-Underlying-Reasons-of-Vulnerability-for-CNNs)
     - [1.2 Attack against Vision Transformers](#12-Attack-against-Vision-Transformers)
     - [1.3 Comparison between CNNs and ViTs](#13-Comparison-between-CNNs-and-ViTs)
-  - [2 Non-adversarial Perturbation-based Poisoning Attack](#2-Non-adversarial-Perturbation-based-Poisoning-Attack)
-  - [3 Adversarial Perturbation-based Evasion Attack](#3-Adversarial-Perturbation-based-Evasion-Attack)
-    - [3.1 Basic Generation Methods](#31-Basic-Generation-Methods)
-    - [3.2 Underlying Reasons of Vulnerability](#32-Underlying-Reasons-of-Vulnerability)
-    - [3.3 Black-box Attack](#33-Black-box-Attack)
-      - [3.3.1 Query-based Attack](#331-Query-based-Attack)
-      - [3.3.2 Query Efficiency](#332-Query-Efficiency)
-      - [3.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)](#333-transfer-based-attack-and-adversarial-transferability-underlying-reasons)
-      - [3.3.4 Adversarial Transferability Enhancement](#334-Adversarial-Transferability-Enhancement)
-        - [3.3.4.1 Data augmentation](#3341-Data-augmentation)
-        - [3.3.4.2 Ensemble-based techniques](#3342-Ensemble-based-techniques)
-        - [3.3.4.3 Momentum-based methods](#3343-Momentum-based-methods)
-        - [3.3.4.4 Architecture-oriented methods](#3344-Architecture-oriented-methods)
-        - [3.3.4.5 Finding proper substitute models](#3345-Finding-proper-substitute-models)
-        - [3.3.4.6 Distribution-oriented methods](#3346-Distribution-oriented-methods)
-        - [3.3.4.7 Other methods](#3347-Other-methods)
-      - [3.3.5 Cross-domain and modality Transferability](#335-Cross-domain-and-modality-Transferability)
-      - [3.3.6 Cross-task Transferability](#336-Cross-task-Transferability)
-        - [3.3.6.1 Downstream-agnostic Attack](#3361-Downstream-agnostic-Attack)
-    - [3.4 Perturbation against Vision Transformer and Cross-architecture Transferability](#34-Perturbation-against-Vision-Transformer-and-Cross-architecture-Transferability)
-      - [3.4.1 Current studies and Underlying Reasons for Vulnerability](#341-Current-studies-and-Underlying-Reasons-for-Vulnerability)
-      - [3.4.2 Comparison and Cross-architecture Transferability between CNNs and ViTs](#342-Comparison-and-Cross-architecture-Transferability-between-CNNs-and-ViTs)
-    - [3.5 Non-box Attack](#35-Non-box-Attack)
-    - [3.6 Attack against Defense](#36-Attack-against-Defense)
-    - [3.7 Problem of the Cross-entropy Loss](#37-Problem-of-the-Cross-entropy-Loss)
-    - [3.8 Imperceptibility](#38-Imperceptibility)
-    - [3.9 Diverse Perturbations](#39-Diverse-Perturbations)
-      - [3.9.1 Beyond l_p-norm Perturbations](#2391-Beyond-l_p-norm-Perturbations)
-      - [3.9.2 Beyond Single or Dual-type Perturbations](#2392-Beyond-Single-or-Dual-type-Perturbations)
-    - [3.10 Unconstrained Perturbations](#310-Unconstrained-Perturbations)
-  - [4. Adversarial Perturbation-based Poisoning Attack](#4-Adversarial-Perturbation-based-Poisoning-Attack)
-      - [4.8 Connection between Evasion Attack and Poisoning Attack](#48-Connection-between-Evasion-Attack-and-Poisoning-Attack)
-      - [4.9 Poisoning against Vision Transformer](#49-Poisoning-against-Vision-Transformer)
-      - [4.10 Efficiency](#410-Efficiency)
+  - [2 Adversarial Perturbation-based Evasion Attack](#2-Adversarial-Perturbation-based-Evasion-Attack)
+    - [2.1 Basic Generation Methods](#21-Basic-Generation-Methods)
+    - [2.2 Underlying Reasons of Vulnerability](#22-Underlying-Reasons-of-Vulnerability)
+    - [2.3 Black-box Attack](#23-Black-box-Attack)
+      - [2.3.1 Query-based Attack](#231-Query-based-Attack)
+      - [2.3.2 Query Efficiency](#232-Query-Efficiency)
+      - [2.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)](#233-transfer-based-attack-and-adversarial-transferability-underlying-reasons)
+      - [2.3.4 Adversarial Transferability Enhancement](#234-Adversarial-Transferability-Enhancement)
+        - [2.3.4.1 Data augmentation](#2341-Data-augmentation)
+        - [2.3.4.2 Ensemble-based techniques](#2342-Ensemble-based-techniques)
+        - [2.3.4.3 Momentum-based methods](#2343-Momentum-based-methods)
+        - [2.3.4.4 Architecture-oriented methods](#2344-Architecture-oriented-methods)
+        - [2.3.4.5 Finding proper substitute models](#2345-Finding-proper-substitute-models)
+        - [2.3.4.6 Distribution-oriented methods](#2346-Distribution-oriented-methods)
+        - [2.3.4.7 Other methods](#2347-Other-methods)
+      - [2.3.5 Cross-domain and modality Transferability](#235-Cross-domain-and-modality-Transferability)
+      - [2.3.6 Cross-task Transferability](#236-Cross-task-Transferability)
+        - [2.3.6.1 Downstream-agnostic Attack](#2361-Downstream-agnostic-Attack)
+    - [2.4 Perturbation against Vision Transformer and Cross-architecture Transferability](#24-Perturbation-against-Vision-Transformer-and-Cross-architecture-Transferability)
+      - [2.4.1 Current studies and Underlying Reasons for Vulnerability](#241-Current-studies-and-Underlying-Reasons-for-Vulnerability)
+      - [2.4.2 Comparison and Cross-architecture Transferability between CNNs and ViTs](#242-Comparison-and-Cross-architecture-Transferability-between-CNNs-and-ViTs)
+    - [2.5 Non-box Attack](#25-Non-box-Attack)
+    - [2.6 Attack against Defense](#26-Attack-against-Defense)
+    - [2.7 Problem of the Cross-entropy Loss](#27-Problem-of-the-Cross-entropy-Loss)
+    - [2.8 Imperceptibility](#28-Imperceptibility)
+    - [2.9 Diverse Perturbations](#29-Diverse-Perturbations)
+      - [2.9.1 Beyond l_p-norm Perturbations](#2391-Beyond-l_p-norm-Perturbations)
+      - [2.9.2 Beyond Single or Dual-type Perturbations](#2392-Beyond-Single-or-Dual-type-Perturbations)
+    - [2.10 Unconstrained Perturbations](#210-Unconstrained-Perturbations)
   <!-- - [Citation](#citation) -->
 
 # PAPER LIST
@@ -124,17 +119,9 @@
 
 - [2019] **Exploring the landscape of spatial robustness** [[paper](http://proceedings.mlr.press/v97/engstrom19a.html)]
   
-## 2 Non-adversarial Perturbation-based Poisoning Attack
+### 2 Adversarial Perturbation-based Evasion Attack
 
-### Availability attacks
-- [2021] **Adversarial examples make strong poisons** [[paper](https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html)]
-
-### Backdoor attacks
-- [2023] **Batt: Backdoor attack with transformation-based triggers** [[paper](https://ieeexplore.ieee.org/abstract/document/10096034/)]
-
-### 3 Adversarial Perturbation-based Evasion Attack
-
-#### 3.1 Basic Generation Methods
+#### 2.1 Basic Generation Methods
 - [2013] [L-BFGS] **Intriguing properties of neural networks** [[paper](https://gitea.sharpe6.com/Adog64/Adversarial-Machine-Learning-Clinic/raw/commit/0e94757c07259c82060fd1d4626c5c8d471deb43/references/Intriguing_properties_of_neural_networks.pdf)]
   
 - [2014] [FGSM] **Adversarial examples in the physical world** [[paper](https://arxiv.org/abs/1412.6572)]
@@ -180,7 +167,7 @@
   
 - [2019] [Population-based methods] **One pixel attack for fooling deep neural networks** [[paper](https://ieeexplore.ieee.org/abstract/document/8601309/)]
 
-#### 3.2 Underlying Reasons of Vulnerability
+#### 2.2 Underlying Reasons of Vulnerability
 - [2021] **Batch normalization increases adversarial vulnerability and decreases adversarial transferability: A non-robust feature perspective** [[paper](http://openaccess.thecvf.com/content/ICCV2021/html/Benz_Batch_Normalization_Increases_Adversarial_Vulnerability_and_Decreases_Adversarial_Transferability_A_ICCV_2021_paper.html)]
 - 
 - [2021] **Natural adversarial examples** [[paper](http://openaccess.thecvf.com/content/CVPR2021/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2021_paper.html)]
@@ -194,8 +181,8 @@
 - [2018] **ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness** [[paper](https://arxiv.org/abs/1811.12231)]
 
 
-#### 3.3 Black-box Attack
-##### 3.3.1 Query-based Attack
+#### 2.3 Black-box Attack
+##### 2.3.1 Query-based Attack
 ###### Gradient estimation based attacks
 
 - [2020] **Towards query-efficient black-box adversary with zeroth-order natural gradient descent** [[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6173)]
@@ -242,7 +229,7 @@
 - [2022] **Triangle attack: A query-efficient decision-based adversarial attack** [[paper](https://link.springer.com/chapter/10.1007/978-3-031-20065-6_10)]
 
   
-##### 3.3.2 Query Efficiency
+##### 2.3.2 Query Efficiency
 
 - [2023] **Decision-based query efficient adversarial attack via adaptive boundary learning** [[paper](https://ieeexplore.ieee.org/abstract/document/10163476/)]
 
@@ -283,7 +270,7 @@
   
 - [2018] **Practical black-box attacks on deep neural networks using efficient query mechanisms** [[paper](http://openaccess.thecvf.com/content_ECCV_2018/html/Arjun_Nitin_Bhagoji_Practical_Black-box_Attacks_ECCV_2018_paper.html)]
   
-##### 3.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)
+##### 2.3.3 Transfer-based Attack and Adversarial Transferability (Underlying Reasons)
 
 - [2023] **Why does little robustness help? a further step towards understanding adversarial transferability** [[paper](https://ieeexplore.ieee.org/abstract/document/10646840/)]
 - [2022] **Toward understanding and boosting adversarial transferability from a distribution perspective** [[paper](https://ieeexplore.ieee.org/abstract/document/9917370/)]
@@ -306,8 +293,8 @@
 
 - [2016] **Delving into transferable adversarial examples and black-box attacks** [[paper](https://arxiv.org/abs/1611.02770)]
 - [2014] **Explaining and harnessing adversarial examples** [[paper](https://arxiv.org/abs/1412.6572)]
-##### 3.3.4 Adversarial Transferability Enhancement
-###### 3.3.4.1 Data augmentation
+##### 2.3.4 Adversarial Transferability Enhancement
+###### 2.3.4.1 Data augmentation
 - [2024] **Foolmix: Strengthen the transferability of adversarial examples by dual-blending and direction update strategy** [[paper](https://ieeexplore.ieee.org/abstract/document/10508615/)]
 - [2024] **Improving adversarial transferability through hybrid augmentation** [[paper](https://www.sciencedirect.com/science/article/pii/S0167404823005849)]
 - [2024] **Enhancing the transferability of adversarial samples with random noise techniques** [[paper](https://www.sciencedirect.com/science/article/pii/S0167404823004510)]
@@ -329,7 +316,7 @@
 - [2019] **Evading defenses to transferable adversarial examples by translation-invariant attacks** [[paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Dong_Evading_Defenses_to_Transferable_Adversarial_Examples_by_Translation-Invariant_Attacks_CVPR_2019_paper.html)]
 - [2019] **Nesterov accelerated gradient and scale invariance for adversarial attacks** [[paper](https://arxiv.org/abs/1908.06281)]
   
-###### 3.3.4.2 Ensemble-based techniques
+###### 2.3.4.2 Ensemble-based techniques
 - [2023] **An adaptive model ensemble adversarial attack for boosting adversarial transferability** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Chen_An_Adaptive_Model_Ensemble_Adversarial_Attack_for_Boosting_Adversarial_Transferability_ICCV_2023_paper.html)]
 - [2023] **Rethinking model ensemble in transfer-based adversarial attacks** [[paper](https://arxiv.org/abs/2303.09105)]
 - [2023] **Minimizing maximum model discrepancy for transferable black-box targeted attacks** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Minimizing_Maximum_Model_Discrepancy_for_Transferable_Black-Box_Targeted_Attacks_CVPR_2023_paper.html)]
@@ -339,7 +326,7 @@
 - [2018] **Boosting adversarial attacks with momentum** [[paper](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)]
 - [2016] **Delving into transferable adversarial examples and black-box attacks** [[paper](https://arxiv.org/abs/1611.02770)]
 
-###### 3.3.4.3 Momentum-based methods
+###### 2.3.4.3 Momentum-based methods
 - [2018] **Boosting adversarial attacks with momentum** [[paper](http://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Boosting_Adversarial_Attacks_CVPR_2018_paper.html)]
 
 - [2021] **Boosting adversarial transferability through enhanced momentum** [[paper](https://arxiv.org/abs/2103.10609)]
@@ -352,7 +339,7 @@
 
 - [2019] **Transferable perturbations of deep feature distributions** [[paper](https://arxiv.org/abs/2004.12519)]
   
-###### 3.3.4.4 Architecture-oriented methods
+###### 2.3.4.4 Architecture-oriented methods
 - [2019] **Skip connections matter: On the transferability of adversarial examples generated with ResNets** [[paper](https://arxiv.org/abs/2002.05990)]
 
 - [2020] **Backpropagating linearly improves transferability of adversarial examples** [[paper](https://proceedings.neurips.cc/paper/2020/hash/00e26af6ac3b1c1c49d7c3d79c60d000-Abstract.html)]
@@ -367,7 +354,7 @@
 
 - [2021] **Feature importance-aware transferable adversarial attacks** [[paper]([https://arxiv.org/abs/1611.05760](http://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html))]
 
-###### 3.3.4.5 Finding proper substitute models
+###### 2.3.4.5 Finding proper substitute models
 - [2024] **AGS: Affordable and generalizable substitute training for transferable adversarial attack** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28365)]
 
 - [2023] **StyLess: Boosting the transferability of adversarial examples** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Liang_StyLess_Boosting_the_Transferability_of_Adversarial_Examples_CVPR_2023_paper.html)]
@@ -379,7 +366,7 @@
 
 - [2020] **Practical no-box adversarial attacks against dnns** [[paper]([https://arxiv.org/abs/1611.05760](https://proceedings.neurips.cc/paper/2020/hash/96e07156db854ca7b00b5df21716b0c6-Abstract.html))]
   
-###### 3.3.4.6 Distribution-oriented methods
+###### 2.3.4.6 Distribution-oriented methods
 
 - [2023] **Towards verifying the geometric robustness of large-scale neural networks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26773)]
   
@@ -389,7 +376,7 @@
   
 - [2020] **Perturbing across the feature hierarchy to improve standard and strict blackbox attack transferability** [[paper](https://proceedings.neurips.cc/paper/2020/hash/eefc7bfe8fd6e2c8c01aa6ca7b1aab1a-Abstract.html)]
 - [2019] **Transferable perturbations of deep feature distributions** [[paper](https://arxiv.org/abs/2004.12519)]
-###### 3.3.4.7 Other methods
+###### 2.3.4.7 Other methods
 
 - [2024] **Perturbation towards easy samples improves targeted adversarial transferability** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/028fcbcf85435d39a40c4d61b42c99a4-Abstract-Conference.html)]
 
@@ -401,7 +388,7 @@
 - [2020] **A unified approach to interpreting and boosting adversarial transferability** [[paper](https://arxiv.org/abs/2010.04055)]
 - [2019] **Cross-domain transferability of adversarial perturbations** [[paper](https://proceedings.neurips.cc/paper_files/paper/2019/hash/99cd3843754d20ec3c5885d805db8a32-Abstract.html)]
   
-##### 3.3.5 Cross-domain and modality Transferability
+##### 2.3.5 Cross-domain and modality Transferability
 - [2024] **UCG: A universal cross-domain generator for transferable adversarial examples** [[paper](https://ieeexplore.ieee.org/abstract/document/10388391/)]
 - [2024] **FACL-Attack: Frequency-aware contrastive learning for transferable adversarial attacks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28470)]
 - [2024] **AGS: Affordable and generalizable substitute training for transferable adversarial attack** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28365)]
@@ -415,8 +402,7 @@
 - [2022] **Cross-modal transferable adversarial attacks from images to videos** [[paper](http://openaccess.thecvf.com/content/CVPR2022/html/Wei_Cross-Modal_Transferable_Adversarial_Attacks_From_Images_to_Videos_CVPR_2022_paper.html)]
 - [2021] **Learning transferable adversarial perturbations** [[paper](https://proceedings.neurips.cc/paper/2021/hash/7486cef2522ee03547cfb970a404a874-Abstract.html)]
 
-
-##### 3.3.6 Cross-task Transferability
+##### 2.3.6 Cross-task Transferability
 
 - [2024] **Enhancing cross-task transferability of adversarial examples via spatial and channel attention** [[paper](https://ieeexplore.ieee.org/abstract/document/10399858/)]
 
@@ -424,14 +410,14 @@
 
 - [2020] **Enhancing cross-task black-box transferability of adversarial examples with dispersion reduction** [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Lu_Enhancing_Cross-Task_Black-Box_Transferability_of_Adversarial_Examples_With_Dispersion_Reduction_CVPR_2020_paper.html)]
 
-##### 3.3.6.1 Downstream-agnostic Attack
+##### 2.3.6.1 Downstream-agnostic Attack
 
 - [2023] **Downstream-agnostic adversarial examples** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Zhou_Downstream-agnostic_Adversarial_Examples_ICCV_2023_paper.html)]
   
 - [2022] **Pre-trained adversarial perturbations** [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/084727e8abf90a8365b940036329cb6f-Abstract-Conference.html)]
 
 
-##### 3.3.6.2 Multi-modal Downstream-agnostic Attack
+##### 2.3.6.2 Multi-modal Downstream-agnostic Attack
 - [2024] **VLATTACK: Multimodal adversarial attacks on vision-language tasks via pre-trained models** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a5e3cf29c269b041ccd644b6beaf5c42-Abstract-Conference.html)]
 - [2024] **Universal adversarial perturbations for vision-language pre-trained models** [[paper](https://dl.acm.org/doi/abs/10.1145/3626772.3657781)]
 
@@ -446,10 +432,10 @@
 
 - [2022] **Towards adversarial attack on vision-language pre-training models** [[paper](https://dl.acm.org/doi/abs/10.1145/3503161.3547801)]
   
-#### 3.4 Perturbation against Vision Transformer and Cross-architecture Transferability
+#### 2.4 Perturbation against Vision Transformer and Cross-architecture Transferability
 
 
-##### 3.4.1 Current Studies and Underlying Reasons for Vulnerability
+##### 2.4.1 Current Studies and Underlying Reasons for Vulnerability
 - [2024] **Improving the adversarial transferability of vision transformers with virtual dense connection** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28541)]
 
 - [2023] **Transferable adversarial attacks on vision transformers with token gradient regularization** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Transferable_Adversarial_Attacks_on_Vision_Transformers_With_Token_Gradient_Regularization_CVPR_2023_paper.html)]
@@ -467,7 +453,7 @@
   
 - [2019] **Exploring the landscape of spatial robustness** [[paper](https://arxiv.org/abs/1611.05760)]
 
-##### 3.4.2 Comparison and Cross-architecture Transferability between CNNs and ViTs
+##### 2.4.2 Comparison and Cross-architecture Transferability between CNNs and ViTs
 
 - [2024] **Ensemble diversity facilitates adversarial transferability** [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Ensemble_Diversity_Facilitates_Adversarial_Transferability_CVPR_2024_paper.html)]
 - [2024] **UCG: A universal cross-domain generator for transferable adversarial examples** [[paper](https://ieeexplore.ieee.org/abstract/document/10388391/)]
@@ -484,12 +470,12 @@
 
 - [2020] **High-frequency component helps explain the generalization of convolutional neural networks** [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_High-Frequency_Component_Helps_Explain_the_Generalization_of_Convolutional_Neural_Networks_CVPR_2020_paper.html)]
   
-#### 3.5 Non-box Attack
+#### 2.5 Non-box Attack
 - [2021] **Data-free universal adversarial perturbation and black-box attack** [[paper](http://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Data-Free_Universal_Adversarial_Perturbation_and_Black-Box_Attack_ICCV_2021_paper.html)]
 - [2020] **Practical no-box adversarial attacks against dnns** [[paper](https://proceedings.neurips.cc/paper/2020/hash/96e07156db854ca7b00b5df21716b0c6-Abstract.html)]
 
 
-#### 3.6 Attack against Defense
+#### 2.6 Attack against Defense
 - [2024] **DiffAttack: Evasion attacks against diffusion-based adversarial purification** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/ea0b28cbbd0cbc45ec4ac38e92da9cb2-Abstract-Conference.html)]
 - [2021] **Beware the black-box: On the robustness of recent defenses to adversarial examples** [[paper](https://www.mdpi.com/1099-4300/23/10/1359)]
 
@@ -498,7 +484,7 @@
 - [2019] **Breaking certified defenses: Semantic adversarial examples with spoofed robustness certificates** [[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Shamsabadi_ColorFool_Semantic_Adversarial_Colorization_CVPR_2020_paper.html)]
 - [2018] **Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples** [[paper](http://proceedings.mlr.press/v80/athalye18a.html)]
 
-#### 3.7 Problem of the Cross-entropy Loss
+#### 2.7 Problem of the Cross-entropy Loss
 - [2024] **Towards understanding and improving adversarial robustness of vision transformers** [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Jain_Towards_Understanding_and_Improving_Adversarial_Robustness_of_Vision_Transformers_CVPR_2024_paper.html)]
 
 - [2023] **Efficient loss function by minimizing the detrimental effect of floating-point errors on gradient-based attacks** [[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Yu_Efficient_Loss_Function_by_Minimizing_the_Detrimental_Effect_of_Floating-Point_CVPR_2023_paper.html)]
@@ -520,7 +506,7 @@
 - [2017] **Towards evaluating the robustness of neural networks** [[paper](https://ieeexplore.ieee.org/abstract/document/7958570/)]
 
   
-#### 3.8 Imperceptibility
+#### 2.8 Imperceptibility
 - [2023] **Towards verifying the geometric robustness of large-scale neural networks** [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26773)]
 - [2023] **AdvST: Generating unrestricted adversarial images via style transfer** [[paper](https://ieeexplore.ieee.org/abstract/document/10292904/)]
 - [2023] **Diffusion models for imperceptible and transferable adversarial attack** [[paper](https://ieeexplore.ieee.org/abstract/document/10716799/)]
@@ -540,8 +526,8 @@
 - [2018] **Beyond pixel norm-balls: Parametric adversaries using an analytically differentiable renderer** [[paper](https://arxiv.org/abs/1808.02651)]
 - [2018] **Semantic adversarial examples** [[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/w32/html/Hosseini_Semantic_Adversarial_Examples_CVPR_2018_paper.html)]
 
-#### 3.9 Diverse Perturbations
-##### 3.9.1 Beyond l_p-norm Perturbations
+#### 2.9 Diverse Perturbations
+##### 2.9.1 Beyond l_p-norm Perturbations
 - [2024] **Wasserstein distributional robustness of neural networks** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/53be3798fcc46e68ca0819c29a004652-Abstract-Conference.html)]
 - [2022] **Sinkhorn adversarial attack and defense** [[paper](https://ieeexplore.ieee.org/abstract/document/9792616/)]
   
@@ -557,13 +543,13 @@
 - [2018] **Exploring the landscape of spatial robustness** [[paper](http://proceedings.mlr.press/v97/engstrom19a.html)]
 
 
-##### 3.9.2 Beyond Single or Dual-type Perturbations
+##### 2.9.2 Beyond Single or Dual-type Perturbations
 - [2021] **Fast minimum-norm adversarial attacks through adaptive norm constraints** [[paper](https://proceedings.neurips.cc/paper_files/paper/2021/hash/a709909b1ea5c2bee24248203b1728a5-Abstract.html)]
   
 - [2020] **Minimally distorted adversarial examples with a fast adaptive boundary attack** [[paper](https://proceedings.mlr.press/v119/croce20a.html)]
 - [2020] **Accurate, reliable and fast robustness evaluation** [[paper](https://proceedings.neurips.cc/paper/2019/hash/885fe656777008c335ac96072a45be15-Abstract.html)]
 
-#### 3.10 Unconstrained Perturbations
+#### 2.10 Unconstrained Perturbations
 - [2023] **Diffusion models for imperceptible and transferable adversarial attack** [[paper](https://ieeexplore.ieee.org/abstract/document/10716799/)]
 - [2023] **Advdiffuser: Natural adversarial example synthesis with diffusion models** [[paper](http://openaccess.thecvf.com/content/ICCV2023/html/Chen_AdvDiffuser_Natural_Adversarial_Example_Synthesis_with_Diffusion_Models_ICCV_2023_paper.html)]
 - [2023] **Content-based unrestricted adversarial attack** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a24cd16bc361afa78e57d31d34f3d936-Abstract-Conference.html)]
