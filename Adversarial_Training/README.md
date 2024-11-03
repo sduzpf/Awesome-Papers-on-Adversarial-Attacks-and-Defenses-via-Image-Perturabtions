@@ -26,7 +26,7 @@
   - [14.2 Adversarial-Training-against-Availability-Attack](#142-Adversarial-Training-against-Availability-Attack)
   <!-- - [Citation](#citation) -->
 
-# Adversarial Training
+# Paper List
 
 ## 1 Definition
 - [2017] **Towards deep learning models resistant to adversarial attacks.** [[paper](https://arxiv.org/abs/1706.06083)]
