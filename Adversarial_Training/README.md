@@ -1,5 +1,6 @@
 # Adversarial Training
->Adversarial training involves a two-player game between the adversary and the defender to train models with adversarial examples to improve model resilence.
+>Adversarial training involves a two-player game between the adversary and the defender to train models with adversarial examples to improve model resilience.
+>The paper list will be continuously updated to keep track of the latest papers.
 
 - [1 Definition](#1-Definition)
 - [2 Overfitting (Generalization)](#2-Overfitting-Generalization)
