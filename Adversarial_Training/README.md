@@ -2,7 +2,7 @@
 >Adversarial training involves a two-player game between the adversary and the defender to train models with adversarial examples to improve model resilence.
 
 - [1 Definition](#1-Definition)
-- [2 Overfitting (Generalization)](#2-Overfitting-Generalization))
+- [2 Overfitting (Generalization)](#2-Overfitting-Generalization)
   - [2.1 Catastrophic Overfitting](#21-Catastrophic-Overfitting)
     - [2.1.1 Underlying Reasons](#211-Underlying-Reasons)
     - [2.1.2 Solutions](#212-Solutions)  
