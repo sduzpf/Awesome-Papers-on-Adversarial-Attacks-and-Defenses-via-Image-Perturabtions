@@ -6,7 +6,7 @@
   - [2.1 Catastrophic Overfitting](#21-Catastrophic-Overfitting)
     - [2.1.1 Underlying Reasons](#211-Underlying-Reasons)
     - [2.1.2 Solutions](#212-Solutions)  
-  - [2.2 Robust Overfitting](#722-Robust-Overfitting)
+  - [2.2 Robust Overfitting](#22-Robust-Overfitting)
     - [2.2.1 Underlying Reasons](#221-Underlying-Reasons)
     - [2.2.2 Solutions](#222-Solutions)  
 - [3 Adversarial Robustness Enhancement](#3-Adversarial-Robustness-Enhancement)
