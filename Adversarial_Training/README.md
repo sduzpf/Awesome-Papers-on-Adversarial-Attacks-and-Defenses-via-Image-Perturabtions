@@ -31,7 +31,7 @@
 
 - [2023/11] **Adapting Fake News Detection to the Era of Large Language Models.** *Jinyan Su et al. arXiv.* [[paper](https://arxiv.org/abs/2311.04917)]
 
-## 2 Overfitting
+## 2 Overfitting (Generalization)
 
 ### 2.1 Catastrophic Overfitting
 
