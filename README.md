@@ -28,9 +28,4 @@ If you find our survey or paper list useful, we would greatly appreciate it if y
   - [Perturbation-based Input Pre-processing](./Perturbation-based_Input_Pre-processing/README.md)
   - [Randomized Smoothing](./Randomized_Smoothing/README.md)
   - [Adversarial Training](./Adversarial_Training/README.md)
-    
-##  Relation between different attacks
-  - [1 Relations between Different Adversarial Robustness to Evasion Attack](#81-Relations between Different Adversarial Robustness to Evasion Attack)
-  - [2 Relations between Adversarial Robustness to Evasion Attack and Backdoor Attack](#82-Relations between Adversarial Robustness to Evasion Attack and Backdoor Attack)
-  - [3 Relations between Adversarial and Non-adversarial Robustness](#83-Relations between Adversarial and Non-adversarial Robustness)
   <!-- - [Citation](#citation) -->
