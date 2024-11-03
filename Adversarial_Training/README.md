@@ -15,7 +15,7 @@
 - [6 Comparison and Connection between Adversarial Training and Randomized Smoothing](#6-Comparison-and-Connection-between-Adversarial-Training-and-Randomized-Smoothing)
 - [7 Defense against Patch Attack](#7-Defense-against-Patch-Attack)
 - [8 Multi-Attack Robustness](#8-Multi-Attack-Robustness)
-- [9 Cross-network/task Adversarial Training](#9-Cross-network/task-Adversarial-Training)
+- [9 Cross-network and task Adversarial Training](#9-Cross-network-and-task-Adversarial-Training)
 - [10 Robust Pre-training and Fine-tuning](#10-Robust-Pre-training-and-Fine-tuning)
 - [11 Adaptive Perturbations](#11-Adaptive-Perturbations)
 - [12 Efficiency](#12-Efficiency)
@@ -62,7 +62,7 @@
 
 ## 8 Multi-Attack Robustness
 
-## 9 Cross-network/task Adversarial Training
+## 9 Cross-network and task Adversarial Training
 
 ## 10 Robust Pre-training and Fine-tuning
 
