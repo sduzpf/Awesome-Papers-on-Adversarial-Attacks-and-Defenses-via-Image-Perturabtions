@@ -10,7 +10,7 @@
 
 >Any suggestion, comment or related discussion is welcome. 
 
-If you find our survey or paper list useful, we would greatly appreciate it if you could consider citing our paper:
+If you find our paper list useful, we would greatly appreciate it if you could consider citing our paper:
 ```
 @article{zhangsurvey,
   title={A Survey on Image Perturbations for Model Robustness: Attacks and Defenses},
