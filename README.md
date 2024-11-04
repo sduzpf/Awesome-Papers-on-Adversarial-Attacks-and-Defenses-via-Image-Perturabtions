@@ -5,8 +5,8 @@
 > The list provides a quick reference to all the papers covered in the survey **[A Survey on Image Perturbations for Model Robustness: Attacks and Defenses.](https://www.researchgate.net/profile/Pengfei-Zhang-74/publication/385213781_A_Survey_on_Image_Perturbations_for_Model_Robustness_Attacks_and_Defenses/links/671af1e4393e8533f715a9f2/A-Survey-on-Image-Perturbations-for-Model-Robustness-Attacks-and-Defenses.pdf)**  <be> It's recommended to use the paper list alongside the survey for a more comprehensive understanding.
 
 >All methods are categorized according to their purpose or the problems they aim to solve.
->The paper list will be continuously updated to keep track of the latest papers.
 
+>The paper list will be continuously updated to keep track of the latest papers.
 
 >Any suggestion, comment or related discussion is welcome. 
 
